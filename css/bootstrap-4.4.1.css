@@ -261,6 +261,7 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  appearance: button
 }
 
 button:not(:disabled),
@@ -289,6 +290,7 @@ input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
   -webkit-appearance: listbox;
+  appearance: listbox;
 }
 
 textarea {
@@ -327,6 +329,7 @@ progress {
 [type="search"] {
   outline-offset: -2px;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -5264,8 +5267,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
 	padding: 0rem 0rem;
 	margin-bottom: 0rem;
-	background: url("../Website_Pics/AdobeStock_230370293_Preview.jpeg") no-repeat;
-	background-position: center, center;
+  display: flex;
+  justify-content: center;
+	background-position: 0%, 0%;
 	background-size: cover;
 	background-color: #000000;
 	border-radius: 0.0rem;
