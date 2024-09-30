@@ -23,7 +23,8 @@ title: Home
           languages, anything that has sparked my interest that I think is worth sharing can be found here. To keep organized, I have 
           split things up into three sections. "Space" describes things related to my career, "Earth" describes any Earthly experiences
           like travel and hobbies, and (on my) "Mind" describes miscellaneous things I want to get off my mind, and is a bit of a catch-all. 
-          Click on one of the buttons below to start your adventure!</p>
+          Click on one of the buttons 
+          below to start your adventure!</p>
       </div>
     </div>
   </div>
@@ -32,13 +33,13 @@ title: Home
   <div class="container mt-2">
     <div class="row">
       <div class="col-md-4">
-          <a class="btn-lg btn space" href="space" role="button" style="font-size:30px; padding-top: 60px; color:azure"><strong>SPACE</strong></a>
+          <a class="btn-lg btn space" href={{"Space" | relative_url }} role="button" style="font-size:30px; padding-top: 60px; color:azure"><strong>SPACE</strong></a>
       </div>
       <div class="col-md-4">
-          <a class="btn-lg btn earth" href="earth" role="button" style="font-size:30px; padding-top: 60px; color:azure"><strong>EARTH</strong></a>
+          <a class="btn-lg btn earth" href={{"Earth" | relative_url }} role="button" style="font-size:30px; padding-top: 60px; color:azure"><strong>EARTH</strong></a>
       </div>
       <div class="col-md-4">
-    <a class="btn-lg btn mind" href="mind" role="button" style="font-size:30px; padding-top: 60px;color:azure;"><strong>MIND</strong></a>
+    <a class="btn-lg btn mind" href={{"Mind" | relative_url}} role="button" style="font-size:30px; padding-top: 60px;color:azure;"><strong>MIND</strong></a>
       </div>
     </div>
   </div>
@@ -50,7 +51,7 @@ title: Home
       <div class="col-12 text-center" style="padding-top: 0px">
         <h2>Resume</h2>
         <p>I am always on the lookout for exciting new opportunities and experiences! If you have anything interesting for me, feel free to read my resume and fill out the contact form below!</p>
-  <embed class=".embed_responsive" src="/assets/Aidan_Velleca_Resume.pdf" width="1100" height="1100" />
+  <embed class=".embed_responsive" src="{{/assets/Aidan_Velleca_Resume.pdf | relative_url }}" width="1100" height="1100" />
       </div>
     </div>
 </div>
@@ -62,7 +63,7 @@ title: Home
       <div class="col-12 text-center">
         <h1>Reach Me</h1>
         <p>Questions, comments, or concerns? Something cool to share? Click the button below to access the contact form!</p>
-    <a href="/contact">
+    <a href={{"/Contact" | relative_url }}>
         <button type="button" class="btn btn-green" style="height:50px;width:200px;font-size:20pt;line-height:50%;max-height: 100%;"><strong>CONTACT ✉️</strong>&nbsp;</button>
     </a>
       </div>
