@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
+    {% assign space_img = "/assets/images/AdobeStock_402438380.jpeg" | relative_url %}
+    {% assign earth_img = "/assets/images/AdobeStock_110515761.jpeg" | relative_url %}
+    {% assign mind_img = "/assets/images/AdobeStock_199560922.jpeg" | relative_url %}
     <style >
       .space {
         height: 120px;
         line-height: 100%;
-        background-image: url("{{ site.url }}{{ site.baseurl }}/assets/images/AdobeStock_402438380.jpeg");
+        background-image: url("{{ space_img }}");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 100% 0%;
@@ -19,7 +22,7 @@
       .earth {
         height: 120px;
         line-height: 100%;
-        background-image: url("{{ site.url }}{{ site.baseurl }}/assets/images/AdobeStock_110515761.jpeg");
+        background-image: url("{{ earth_img }}");
         background-size: cover;
         background-position: 0% 30%;
         background-origin: border-box;
@@ -28,7 +31,7 @@
       .mind {
         height: 120px;
         line-height: 100%;
-        background-image: url("{{ site.url }}{{ site.baseurl }}/assets/images/AdobeStock_199560922.jpeg");
+        background-image: url("{{ mind_img }}");
         background-size: cover;
         background-position: 0% 70%;
         background-origin: border-box;
