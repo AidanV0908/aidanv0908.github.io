@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <section>
-  {% assign jumbotron_img = {{"/assets/images/AdobeStock_230370293_Full.jpeg" | relative_url}} %}
+  {% assign jumbotron_img = "/assets/images/AdobeStock_230370293_Full.jpeg" | relative_url %}
   <div class="jumbotron text-center mt-0" style="background: url({{jumbotron_img}}) no-repeat">
     <div class="quote-box">
       <div class="row">
@@ -34,13 +34,13 @@ title: Home
   <div class="container mt-2">
     <div class="row">
       <div class="col-md-4">
-          <a class="btn-lg btn space" href={{"Space" | relative_url }} role="button" style="font-size:30px; padding-top: 60px; color:azure"><strong>SPACE</strong></a>
+          <a class="btn-lg btn space" href="{{ 'Space' | relative_url }}" role="button" style="font-size:30px; padding-top: 60px; color:azure"><strong>SPACE</strong></a>
       </div>
       <div class="col-md-4">
-          <a class="btn-lg btn earth" href={{"Earth" | relative_url }} role="button" style="font-size:30px; padding-top: 60px; color:azure"><strong>EARTH</strong></a>
+          <a class="btn-lg btn earth" href="{{ 'Earth' | relative_url }}" role="button" style="font-size:30px; padding-top: 60px; color:azure"><strong>EARTH</strong></a>
       </div>
       <div class="col-md-4">
-    <a class="btn-lg btn mind" href={{"Mind" | relative_url}} role="button" style="font-size:30px; padding-top: 60px;color:azure;"><strong>MIND</strong></a>
+    <a class="btn-lg btn mind" href="{{ 'Mind' | relative_url}}" role="button" style="font-size:30px; padding-top: 60px;color:azure;"><strong>MIND</strong></a>
       </div>
     </div>
   </div>
@@ -52,7 +52,7 @@ title: Home
       <div class="col-12 text-center" style="padding-top: 0px">
         <h2>Resume</h2>
         <p>I am always on the lookout for exciting new opportunities and experiences! If you have anything interesting for me, feel free to read my resume and fill out the contact form below!</p>
-  <embed class=".embed_responsive" src={{"/assets/Aidan_Velleca_Resume.pdf" | relative_url }} width="1100" height="1100" />
+        <iframe class="embed-responsive" src="{{ '/assets/Aidan_Velleca_Resume.pdf' | relative_url }}" width="100%" height="600" frameborder="0"></iframe>
       </div>
     </div>
 </div>
