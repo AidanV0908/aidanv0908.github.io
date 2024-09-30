@@ -16,6 +16,26 @@
   <link href="{{ 'css/social-media.css' | relative_url }}" rel="stylesheet" type="text/css">
   <link href="{{ 'css/customobjects.css' | relative_url }}" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- JS Code for NavBar -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+        var pathname = window.location.pathname;
+
+        // Loop through each nav-link in the navbar
+        $(".navbar-nav .nav-link").each(function() {
+            // Check if the current page URL contains the text from the link
+            if (pathname.toUpperCase().indexOf($(this).text().toUpperCase()) !== -1) {
+                $(this).addClass("active");
+            }
+        });
+
+        // If no link is highlighted, fallback to the Home link (assuming Home is default)
+        if ($(".nav-link.active").length === 0) {
+            $(".navbar-nav .nav-link").first().addClass("active");
+        }
+    });
+  </script>
 </head>
   <body>
     {% include navbar.html %}
