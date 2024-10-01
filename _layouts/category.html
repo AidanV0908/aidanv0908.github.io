@@ -4,15 +4,37 @@ layout: default
 <!-- _layouts/category.html -->
 {{ content }}
 <hr>
+<style type="text/css">
+    
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid black; /* Border around the entire table */ 
+        }
+        th {
+            padding: 5px 15px;
+        }
+        tr {
+            border-bottom: 1px solid black; /* Border between rows */
+        }
+</style>
 <div class="container">
-<h2>Posts</h2>
-<ul>
-{% for post in site.posts %}
-    {% if post.categories contains page.category %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
-    </li>
-    {% endif %}
-{% endfor %}
-</ul>
+    <table>
+        <tr>
+            <th style="width: 10%"><strong></strong></th>
+            <th style="width: 25%"><strong>POST DATE</strong></th>
+            <th style="width: 25%"><strong>POST TITLE</strong></th>
+            <th style="width: 40%"><strong>POST DESCRIPTION</strong></th>
+        </tr>
+        {% for post in site.posts %}
+            {% if post.categories contains page.category %}
+                <tr class="clickable-row" data-href="{{ post.url }}">
+                    <th style="width: 10%"><img src="{{ post.thumbnail_link | relative_url }}" style="width: 100px; height: 100px; object-fit: cover;"></th>
+                    <th style="width: 25%">{{ post.date | date: "%B %d, %Y" }}</th>
+                    <th style="width: 25%">{{ post.title }}</th>
+                    <th style="width: 40%">{{ post.description }}</th>
+                </tr>
+            {% endif %}
+        {% endfor %}
+    </table>
 </div>

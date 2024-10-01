@@ -4,7 +4,7 @@ title: Home
 ---
 <section>
   {% assign jumbotron_img = "/assets/images/AdobeStock_230370293_Full.jpeg" | relative_url %}
-  <div class="jumbotron text-center mt-0" style="background: url({{jumbotron_img}}) no-repeat">
+  <div class="jumbotron text-center mt-0" style="background-image: url({{jumbotron_img}}); background-size: cover">
     <div class="quote-box">
       <div class="row">
         <div class="col-12">
@@ -55,7 +55,7 @@ title: Home
       <div class="col-12 text-center" style="padding-top: 0px">
         <h2>Resume</h2>
         <p>I am always on the lookout for exciting new opportunities and experiences! If you have anything interesting for me, feel free to read my resume and fill out the contact form below!</p>
-        <iframe class="embed-responsive" src="{{ '/assets/Aidan_Velleca_Resume.pdf' | relative_url }}" width="100%" height="600" frameborder="0"></iframe>
+        <iframe class="embed-responsive" src="{{ '/assets/Aidan_Velleca_Resume.pdf' | relative_url }}" width="100%" height="1100" frameborder="0"></iframe>
       </div>
     </div>
 </div>

@@ -5,9 +5,9 @@ layout: default
     <div class="row">
         <div class="col-12 text-center">
             <h3>{{ page.title }}</h3>
-            <h5>Date: {{ page.date }}</h5>
+            <h5>Date: {{ page.date | date: "%Y-%m-%d" }}</h5>
         </div>
     </div>
 
-{{ content }}
+    {{ content }}
 </div>
