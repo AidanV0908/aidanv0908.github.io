@@ -4,14 +4,12 @@ title: Home
 ---
 <section>
   {% assign jumbotron_img = "/assets/images/AdobeStock_230370293_Full.jpeg" | relative_url %}
-  <div class="jumbotron text-center mt-0" style="background-image: url({{jumbotron_img}}); background-size: cover; background-position: center; height: 30vh; color: #FFFFFF;">
-    <div class="quote-box d-flex align-items-center justify-content-center h-100">
+  <div class="jumbotron text-center mt-0" style="background-image: url({{jumbotron_img}}); background-size: cover">
+    <div class="quote-box">
       <div class="row">
         <div class="col-12">
-          <blockquote class="blockquote text-left" style="color: #FFFFFF">
-            <p class="mb-0">"WE'RE IN THE SPACE EXPLORATION BUSINESS, AND THE OUTER SOLAR SYSTEM IS A WILD, WOOLY PLACE. WE HAVEN'T EXPLORED IT VERY WELL."</p>
-            <footer class="blockquote-footer text-right" style="color: rgba(255, 255, 255, 0.7);">Alan Stern</footer>
-          </blockquote>
+          <h5 class="text-left blockquote;" style= "color: #FFFFFF">"WE'RE IN THE SPACE EXPLORATION BUSINESS, AND THE OUTER SOLAR SYSTEM IS A WILD, WOOLY PLACE. WE HAVEN'T EXPLORED IT VERY WELL."</h5>
+          <p class="text-right blockquote-footer">ALAN STERN</p>
         </div>
       </div>
     </div>
@@ -71,7 +69,7 @@ title: Home
       <div class="col-12 text-center">
         <h1>Reach Me</h1>
         <p>Questions, comments, or concerns? Something cool to share? Click the button below to access the contact form!</p>
-    <a href="{{'/Contact' | relative_url }}">
+    <a href={{"/Contact" | relative_url }}>
         <button type="button" class="btn btn-green" style="height:50px;width:200px;font-size:20pt;line-height:50%;max-height: 100%;"><strong>CONTACT ✉️</strong>&nbsp;</button>
     </a>
       </div>
