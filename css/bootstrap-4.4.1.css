@@ -460,22 +460,6 @@ mark,
   text-transform: uppercase;
 }
 
-.blockquote {
-  margin-bottom: 1rem;
-  font-size: 1.6rem;
-}
-
-
-.blockquote-footer {
-  display: block;
-  font-size: 80%;
-  color: #CCCCCC;
-}
-
-.blockquote-footer::before {
-  content: "\2014\00A0";
-}
-
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -552,6 +536,55 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+.blockquote {
+  font-size: 1.5rem; /* Adjust as needed */
+  font-style: italic;
+  /*max-width: 800px;*/
+  margin: 0 auto;
+}
+
+
+.blockquote-footer {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.7); /* Lighter white */
+}
+
+.blockquote-footer::before {
+  content: "\2014\00A0";
+}
+
+@media (max-width: 1068px) {
+  .blockquote {
+    font-size: 1rem;
+  }
+
+  .blockquote-footer {
+      font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 518px) {
+  .blockquote {
+    font-size: 0.8rem;
+  }
+
+  .blockquote-footer {
+      font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .blockquote {
+    font-size: 0.65rem;
+  }
+
+  .blockquote-footer {
+      font-size: 0.45rem;
+  }
+}
+
 
 @media (min-width: 576px) {
   .container {
@@ -5271,6 +5304,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   justify-content: center;
 	background-position: 0%, 0%;
 	background-size: cover;
+  background-position: center;
 	background-color: #000000;
 	border-radius: 0.0rem;
 }
@@ -10257,11 +10291,12 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: left;
 }
 
+/* Styling for the quote box to center content */
 .quote-box {
-  width: 50%;
-  padding-right: 90px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-	left:30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 30%;
 }
