@@ -8,8 +8,30 @@
 	background-position: 100% 0%;
 	background-origin: border-box;
 	max-height: 100%;
+	flex:0cm 1;
+	margin: 0;
 }
 
 .clickable-row {
     cursor: pointer;
+}
+
+.button-container {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+    flex-direction: row; /* Horizontal layout by default */
+}
+
+@media (max-width: 768px) {
+    .button-container {
+        flex-direction: column; /* Stacks buttons vertically */
+    }
+
+	.custombutton {
+		margin-bottom: 15px;
+	}
 }
