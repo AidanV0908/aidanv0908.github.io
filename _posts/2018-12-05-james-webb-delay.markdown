@@ -15,7 +15,7 @@ It may not sound futuristic, and the idea is not a staple of sci-fi movies with 
 
 I have a special affinity for the telescope. I once saw the James Webb Space Telescope being worked on in Redondo Beach, California, and I was impressed. Everyone had to wear suits to prevent contamination, and everyone worked quietly. There were no heavy tools or anything, the space telescope was just that fragile. It gave me a new respect for spacecraft, and how hard people have to work on them, and made me more sensitive to the endless delays spacecraft have. The mirrors on that telescope were so sleek.
 
-![26504730220_6093d4a042_b]({{ "assets/images/26504730220_6093d4a042_b.jpg" | relative_url }}) 
+![26504730220_6093d4a042_b]({{ "assets/images/26504730220_6093d4a042_b.jpg" | relative_url }}){:width="80%"}  
 
 Photo of the JWST Mirrors, by [NASA.](https://jwst.nasa.gov/mirrors.html)
 

@@ -11,7 +11,7 @@ description: "Our sun has a twin!"
 
 All stars start out in a stellar nursery, where they gain the massive amount of materials they need to become stars. These nurseries, also known as nebulae, are the remnants of supernovas. These nebulae each have unique concentrations of elements, so stars produced in them have a unique mark. Scientists found a star very much like our own, containing a similar elemental makeup, which suggests it may have been born in our stellar neighborhood. It's age is also similar to our sun. Its name? HD 186302. Not a really special name, I know, but it's super cool to see a star like our sun, considering most of the stars around us are tiny red dwarves. This star is a G3 star (slightly cooler than our G2 sun), and is solitary, at least according to what we know. It's interesting to think what could be around it.
 
-![nasa-89125-unsplash]({{ "assets/images/nasa-89125-unsplash.jpg" | relative_url }}) 
+![nasa-89125-unsplash]({{ "assets/images/nasa-89125-unsplash.jpg" | relative_url }}){:width="80%"}  
 
 Nebula by [NASA](https://unsplash.com/photos/rTZW4f02zY8?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/nebula?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 

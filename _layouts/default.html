@@ -9,8 +9,23 @@
   <link href="{{'css/social-media.css' | relative_url}}" rel="stylesheet" type="text/css">
   <link href="{{'css/customobjects.css' | relative_url}}" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- JS Code for NavBar -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!-- 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+  -->
+
   <script>
     $(document).ready(function() {
         var pathname = window.location.pathname;
@@ -24,9 +39,9 @@
         });
 
         // If no link is highlighted, fallback to the Home link (assuming Home is default)
-        if ($(".nav-link.active").length === 0) {
-            $(".navbar-nav .nav-link").first().addClass("active");
-        }
+        //if ($(".nav-link.active").length === 0) {
+            //$(".navbar-nav .nav-link").first().addClass("active");
+        //}
     });
 
       jQuery(document).ready(function($) {

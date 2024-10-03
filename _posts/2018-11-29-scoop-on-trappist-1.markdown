@@ -19,7 +19,7 @@ description: "A discussion on the newly discovered TRAPPIST-1 system and exoplan
  
  The transit method looks for dips of light from a star from when a planet passes in front of it. This is the easiest manner to detect an exoplanet, and in fact "Of the 3,526 extra-solar planets that have been confirmed to date, the transit method has accounted for 2,771 discoveries"[\[2\]](https://www.universetoday.com/137480/what-is-the-transit-method/). You'd think that if the transit method is so good why would anyone use other methods, right? Well, the problem is that planets have to be orbiting on a specific orbital plane to be seen via the transit method. There are other methods to detect exoplanets, like [gravitational microlensing](https://www.universetoday.com/138141/gravitational-microlensing-method/), but the transit method is the most efficient method that gives us the most data, so we really got lucky that these seven planets orbit on a plane that allows them to be seen from the Earth. 
  
- ![TransitSignature_MultPlan_19Aug_v3]({{ "assets/images/transitmethod.jpg" | relative_url }}) 
+ ![TransitSignature_MultPlan_19Aug_v3]({{ "assets/images/transitmethod.jpg" | relative_url }}){:width="80%"}  
  
  Example of a Transit by [NASA](https://www.nasa.gov/mission_pages/kepler/multimedia/images/transit_signature.html).
  
