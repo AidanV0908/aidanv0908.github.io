@@ -28,7 +28,7 @@ description: "A discussion on the newly discovered TRAPPIST-1 system and exoplan
  
  Distance is another perk to the TRAPPIST-1 system; at 39 light years we can see it well through telescopes and get better data. I'm sure you're aware that as you get further away from things, they get harder to see, right? Well, same thing with telescopes. They can't get as good data from systems 200 light years away as the TRAPPIST-1 system less than 39 light years away, because they can't get as much light. That means that, because of its proximity, we can get a lot of data from the system. **Planets** The TRAPPIST-1 system has seven planets, all rocky, and all very interesting. The planets all "have sizes and masses comparable to the Earth and Venus"[\[1\]](http://www.trappist.one/#about). And four reside in the habitable zone (one is the most ideal, TRAPPIST-1e, but TRAPPIST-1d and TRAPPIST-1f , and TRAPPIST-1g reside on the inner and outer edges). Out of the three, TRAPPIST-1e seems most likely for life. Most of these worlds are expected to have abundant amounts of water. 
  
-![PIA21424-1920x1200]({{ "assets/images/pia22093-16.jpg" | relative_url }}) {: .img-post}
+![PIA21424-1920x1200]({{ "assets/images/pia22093-16.jpg" | relative_url }}){: .img-post}
 
 TRAPPIST-1 Habitable Zone by [NASA](https://www.jpl.nasa.gov/spaceimages/details.php?id=pia21424).
 {: .caption-post}
