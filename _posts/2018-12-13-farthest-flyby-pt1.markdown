@@ -17,7 +17,8 @@ Some information about the flyby. As I stated earlier, it's happening just over 
 
 ![pluto-1315109_1920.jpg]({{ "assets/images/pluto-1315109_1920.jpg" | relative_url }}){: .img-post}  
 
-Pluto by [Skeeze](https://pixabay.com/en/users/skeeze-272447/) on [Pixabay](https://pixabay.com/en/pluto-dwarf-planet-kuiper-belt-nasa-1315109/) {: .caption-post}  
+Pluto by [Skeeze](https://pixabay.com/en/users/skeeze-272447/) on [Pixabay](https://pixabay.com/en/pluto-dwarf-planet-kuiper-belt-nasa-1315109/) 
+{: .caption-post}  
 
 The object that New Horizons will flyby on New Years is known as 2014 MU69. If that's too many numbers for you, you can call it "Ultima Thule." It's a lot smaller than Pluto, and a lot further. That's what makes it special. It's so far from the Sun that scientists think that it will give us a good interpretation of what our solar system was like when it formed. It's further from the sun, so stripping solar radiation is unlikely to have changed it much. 
 
