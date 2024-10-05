@@ -14,3 +14,24 @@
 .clickable-row {
     cursor: pointer;
 }
+
+.img-post
+{
+    margin: 0 auto;
+    display: block;
+	width: 80%;
+}
+
+.img-post-small
+{
+    margin: 0 auto;
+    display: block;
+	width: 50%;
+}
+
+.caption-post
+{
+    color:gray; 
+	font-size: 80%; 
+	text-align: center;
+}

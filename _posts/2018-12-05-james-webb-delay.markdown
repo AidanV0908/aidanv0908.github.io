@@ -15,9 +15,10 @@ It may not sound futuristic, and the idea is not a staple of sci-fi movies with 
 
 I have a special affinity for the telescope. I once saw the James Webb Space Telescope being worked on in Redondo Beach, California, and I was impressed. Everyone had to wear suits to prevent contamination, and everyone worked quietly. There were no heavy tools or anything, the space telescope was just that fragile. It gave me a new respect for spacecraft, and how hard people have to work on them, and made me more sensitive to the endless delays spacecraft have. The mirrors on that telescope were so sleek.
 
-![26504730220_6093d4a042_b]({{ "assets/images/26504730220_6093d4a042_b.jpg" | relative_url }}){:width="80%"}  
+![26504730220_6093d4a042_b]({{ "assets/images/26504730220_6093d4a042_b.jpg" | relative_url }}){: .img-post}  
 
 Photo of the JWST Mirrors, by [NASA.](https://jwst.nasa.gov/mirrors.html)
+{: .caption-post} 
 
 This is a photo similar to what I saw. The hexagons are part of the foldable design, and you can see the three men wearing suits to prevent contamination. However, even with the difficulty of the telescope, enough is enough. This project has been in the works for too long. It was going to take off earlier this year, 2018- I remember because that was what they were saying when I was there last year, so it should already be in space, right? Well, not so fast. The new launch date is now [in 2021](https://www.space.com/40102-james-webb-space-telescope-launch-delay-2020.html). It's infuriating. But, however how infuriating, there's no solution. We can't really cancel the project, it's too far along. We also can't rush it, space is dangerous and if a mission is rushed there's a high chance the James Webb will turn into a billion-dollar firework display. So we just have to deal with the overruns. 
 

@@ -19,17 +19,19 @@ description: "A discussion on the newly discovered TRAPPIST-1 system and exoplan
  
  The transit method looks for dips of light from a star from when a planet passes in front of it. This is the easiest manner to detect an exoplanet, and in fact "Of the 3,526 extra-solar planets that have been confirmed to date, the transit method has accounted for 2,771 discoveries"[\[2\]](https://www.universetoday.com/137480/what-is-the-transit-method/). You'd think that if the transit method is so good why would anyone use other methods, right? Well, the problem is that planets have to be orbiting on a specific orbital plane to be seen via the transit method. There are other methods to detect exoplanets, like [gravitational microlensing](https://www.universetoday.com/138141/gravitational-microlensing-method/), but the transit method is the most efficient method that gives us the most data, so we really got lucky that these seven planets orbit on a plane that allows them to be seen from the Earth. 
  
- ![TransitSignature_MultPlan_19Aug_v3]({{ "assets/images/transitmethod.jpg" | relative_url }}){:width="80%"}  
+ ![TransitSignature_MultPlan_19Aug_v3]({{ "assets/images/transitmethod.jpg" | relative_url }}){: .img-post}  
  
  Example of a Transit by [NASA](https://www.nasa.gov/mission_pages/kepler/multimedia/images/transit_signature.html).
+ {: .caption-post}
  
  **Distance** 
  
  Distance is another perk to the TRAPPIST-1 system; at 39 light years we can see it well through telescopes and get better data. I'm sure you're aware that as you get further away from things, they get harder to see, right? Well, same thing with telescopes. They can't get as good data from systems 200 light years away as the TRAPPIST-1 system less than 39 light years away, because they can't get as much light. That means that, because of its proximity, we can get a lot of data from the system. **Planets** The TRAPPIST-1 system has seven planets, all rocky, and all very interesting. The planets all "have sizes and masses comparable to the Earth and Venus"[\[1\]](http://www.trappist.one/#about). And four reside in the habitable zone (one is the most ideal, TRAPPIST-1e, but TRAPPIST-1d and TRAPPIST-1f , and TRAPPIST-1g reside on the inner and outer edges). Out of the three, TRAPPIST-1e seems most likely for life. Most of these worlds are expected to have abundant amounts of water. 
  
-![PIA21424-1920x1200]({{ "assets/images/pia22093-16.jpg" | relative_url }}) 
+![PIA21424-1920x1200]({{ "assets/images/pia22093-16.jpg" | relative_url }}) {: .img-post}
 
 TRAPPIST-1 Habitable Zone by [NASA](https://www.jpl.nasa.gov/spaceimages/details.php?id=pia21424).
+{: .caption-post}
 
 **Stability of TRAPPIST-1** 
 

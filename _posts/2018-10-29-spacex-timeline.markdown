@@ -15,9 +15,10 @@ Well, SpaceX says on their website that they plan to reach Mars in 2022 for a ca
 
 However, let's look to see how SpaceX has met previous deadlines. According to [this article](https://www.nytimes.com/interactive/2018/science/spacex-falcon-launch.html) by _The New York Times,_ some major landmarks SpaceX met in the past include their first successful launch in 2008 (after three failures), their transition to the Falcon 9 with the Dragon capsule in 2010, their dock to the ISS for the first time in May 2012, and their launch of the Falcon Heavy this year in February. In ten years, SpaceX went from a fledgling private space company to a rival of NASA (that just goes to show you what private enterprise can achieve). After a multitude of successful launches and upgrading their rocket multiple times, they are making huge headway in the space industry. Heck, they even landed a rocket on an aircraft carrier! 
 
-![spacex-82137-unsplash](http://aidanvelleca.com/wp-content/uploads/2018/10/spacex-82137-unsplash.jpg){:width="80%"}  
+![spacex-82137-unsplash]({{"assets/images/spacex-82137-unsplash-scaled.jpg" | relative_url}}){: .img-post}  
 
 Photo by [SpaceX](https://unsplash.com/photos/Zir1FQf5yGk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/spacex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+{: .caption-post}
 
 I don't know if I'm being too enthusiastic but, all things considered, I don't think SpaceX's timeline is that aggressive! I Their rate of development is swift, and I can see them deploying cargo missions to Mars with the BFR by 2024, two years after what their timeline says, and getting the first men on Mars by 2026 or 2027 (it sounds like a long time from now but that is incredible!). So, even with such an ambitious goal, SpaceX is only barely not going to meet it, which is technically meeting it in space standards. 
 

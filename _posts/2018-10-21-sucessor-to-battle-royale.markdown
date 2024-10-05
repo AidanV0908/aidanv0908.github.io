@@ -13,15 +13,17 @@ description: "With Fortnite on its way out, what will take its place?"
 
 As you all may know, Fortnite and PlayerUnknown's Battlegrounds were two major players in an explosion of a new popular genre that rocked the internet- Battle Royale. But that was in 2017, and these games are slowly but surely losing popularity. 
 
-![Fortnite Popularity]({{ "assets/images/fortnite-popularity.png" | relative_url }}) 
+![fortnite-popularity.png]({{ "assets/images/fortnite-popularity.png" | relative_url }}){: .img-post}
 
-Popularity of Fortnite from [Google Trends.](https://trends.google.com/trends/explore?geo=US&q=Fortnite) 
+Popularity of Fortnite from [Google Trends.](https://trends.google.com/trends/explore?geo=US&q=Fortnite)
+{: .caption-post}
 
 It probably doesn't look like the game is declining, but that's because the game just released season six, with a lot of new content, on September 27th. You can see a peak there as interest in the game was rekindled, but you can see the downward trend before and after the release. Already, Fortnite is starting to reach another low, and it's only a matter of time before the game can't recapture interest, even with new content. 
 
-![Fortnite-Minecraft Comparison]({{ "assets/images/fortnite-minecraft-comparison.png" | relative_url }}) 
+![Fortnite-Minecraft Comparison]({{ "assets/images/fortnite-minecraft-comparison.png" | relative_url }}){: .img-post}
 
-Fortnite compared to Minecraft, past six years, from [Google Trends.](https://trends.google.com/trends/explore?date=2013-10-21%202018-10-21&geo=US&q=Fortnite,Minecraft) 
+Fortnite compared to Minecraft, past six years, from [Google Trends.](https://trends.google.com/trends/explore?date=2013-10-21%202018-10-21&geo=US&q=Fortnite,Minecraft)
+{: .caption-post}
 
 In this graph of Fortnite compared to Minecraft over a longer time period, we get a better picture of the game's decline. You can see the game is in it's peak, even higher than Minecraft, but it is starting a decline, just like Minecraft did. If Fortnite follows a similar trend as Minecraft, it will still remain a well-known game for years to come (everyone still knows what Minecraft is), and updates and meme value (people making fun of it) might cause its decrease to slow, but people will gradually play less and less, and eventually it will die out. But that's the thing- what will replace it? Is it even possible to know ahead of time? 
 
@@ -35,7 +37,10 @@ I liked [this article,](https://www.gamedesigning.org/popular-video-games/) wr
 
 So, with this article and prior knowledge, I have a list of the most trending video games over the past years. In chronological order of their release, it goes: Minecraft, Angry Birds, Clash of Clans, Grand Theft Auto V, Clash Royale, Pokemon Go, and Fortnite. On average, we see these games coming out every seven months or so, so the next one should be almost due. But what do these games have in common? Well, except for Minecraft and Grand Theft Auto V, a lot of these games are free, so we can make that a big factor, but not a deciding factor, for a game's popularity. The game needs to be available to the masses. Also, the game must not be over-hyped. This one popped into my head because I just thought about No Man's Sky, a game that people thought would be popular but promised too much. 
 
-![No Man's Sky]({{ "assets/images/no-mans-sky.png" | relative_url }}) A picture I took from No Man's Sky's store page, on [Steam.](https://store.steampowered.com/app/275850/No_Mans_Sky/) 
+![No Man's Sky]({{ "assets/images/no-mans-sky.png" | relative_url }}){: .img-post-small }
+
+A picture I took from No Man's Sky's store page, on [Steam.](https://store.steampowered.com/app/275850/No_Mans_Sky/)
+{: .caption-post}
 
 Also, back to the list, the game must be mobile or have a mobile counterpart. The only exception here is Grand Theft Auto V and Fortnite. Fortnite does have a mobile app, but it didn't have one at first, which is why I listed it as an exception. But, if you go back to the Google Trends graph of Fortnite earlier, you can see that it releasing a mobile app on the iPhone in early April caused it's popularity to increase (second peak). So, we can predict that a popular game will likely be mobile or have a mobile counterpart. 
 

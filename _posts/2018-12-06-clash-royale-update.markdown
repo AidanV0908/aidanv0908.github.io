@@ -15,9 +15,10 @@ First thing first, the new tournament system. The old one sucked, don't get me w
 
 Supercell is also releasing a balance update, one that lets the freeze spell do damage. This doesn't matter in regular gameplay, but it does make the game a lot less fun. You see, my friends and I like to spawn as many of one type of troop as possible, and we often clone and then freeze them. If freeze does damage, it kills the clones. So this makes spawning as many of one type of troop as we can a lot harder. 
 
-![image1]({{ "assets/images/image1-e1544070362411.png" | relative_url }}){:width="80%"}  
+![image1]({{ "assets/images/image1-e1544070362411.png" | relative_url }}){: .img-post}  
 
 My friend and I tried to spawn as many of the troop "Zappies" as we could. 
+{: .caption-post}  
 
 Star levels are another part of the update, which are a reskin of different troops if you get them high enough, purely a cosmetic change. You could argue this is pay-to-win, because you need to be maxed to get it, but they are only cosmetics, so I don't particularly care about that. I like they pulled that idea from Clash of Clans, so that is a plus to their update. I also like their addition of badges,  which can show player achievements in an appeasing way. It's a simple change, but a pro. 
 

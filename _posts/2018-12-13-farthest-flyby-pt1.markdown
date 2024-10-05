@@ -15,9 +15,9 @@ Seriously though, that's some hard work, and I respect that. NASA employees work
 
 Some information about the flyby. As I stated earlier, it's happening just over 4 billion miles from the Earth ([6.6 billion kilometers](http://www.planetary.org/blogs/jason-davis/2018/nh-ut-100days.html) is the quoted figure). The spacecraft performing the flyby is called New Horizons, which is about to break its own record it made when exploring Pluto. Just look at Pluto in all its glory! That's what New Horizons' cameras took! 
 
-![pluto-1315109_1920.jpg]({{ "assets/images/pluto-1315109_1920.jpg" | relative_url }}){:width="80%"}  
+![pluto-1315109_1920.jpg]({{ "assets/images/pluto-1315109_1920.jpg" | relative_url }}){: .img-post}  
 
-Pluto by [Skeeze](https://pixabay.com/en/users/skeeze-272447/) on [Pixabay](https://pixabay.com/en/pluto-dwarf-planet-kuiper-belt-nasa-1315109/) 
+Pluto by [Skeeze](https://pixabay.com/en/users/skeeze-272447/) on [Pixabay](https://pixabay.com/en/pluto-dwarf-planet-kuiper-belt-nasa-1315109/) {: .caption-post}  
 
 The object that New Horizons will flyby on New Years is known as 2014 MU69. If that's too many numbers for you, you can call it "Ultima Thule." It's a lot smaller than Pluto, and a lot further. That's what makes it special. It's so far from the Sun that scientists think that it will give us a good interpretation of what our solar system was like when it formed. It's further from the sun, so stripping solar radiation is unlikely to have changed it much. 
 
