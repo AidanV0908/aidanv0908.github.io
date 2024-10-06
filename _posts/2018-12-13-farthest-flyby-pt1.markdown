@@ -13,7 +13,7 @@ A record is about to be broken by the same spacecraft that holds the current rec
 
 Seriously though, that's some hard work, and I respect that. NASA employees work overtime often. You have to like space, and I mean LIKE space, to work at NASA. But that doesn't mean they're not fun people, I bet they'll still be popping open the champagne on New Years. I personally won't be working on New Years, but I will be keeping the mission in mind. And when the data from the flyby finally comes in months later, bit by agonizing bit, from the farthest object yet explored in space, I'll be watching. 
 
-Some information about the flyby. As I stated earlier, it's happening just over 4 billion miles from the Earth ([6.6 billion kilometers](http://www.planetary.org/blogs/jason-davis/2018/nh-ut-100days.html) is the quoted figure). The spacecraft performing the flyby is called New Horizons, which is about to break its own record it made when exploring Pluto. Just look at Pluto in all its glory! That's what New Horizons' cameras took! 
+Some information about the flyby. As I stated earlier, it's happening just over 4 billion miles from the Earth ([6.6 billion kilometers](https://www.planetary.org/blogs/jason-davis/2018/nh-ut-100days.html) is the quoted figure). The spacecraft performing the flyby is called New Horizons, which is about to break its own record it made when exploring Pluto. Just look at Pluto in all its glory! That's what New Horizons' cameras took! 
 
 ![pluto-1315109_1920.jpg]({{ "assets/images/pluto-1315109_1920.jpg" | relative_url }}){: .img-post}  
 

@@ -23,7 +23,7 @@ I love this theory. Thinking about a floating cloud city on another planet sound
 
 Thumbnail Image Credit: [WikiImages](https://pixabay.com/en/users/WikiImages-1897/)  on [Pixabay.](https://pixabay.com/en/venus-surface-hot-heat-planet-11022/) 
 
-Information on Venus: [Venus Facts](https://space-facts.com/venus/) and [Cool Cosmos.](http://coolcosmos.ipac.caltech.edu/ask/48-How-strong-is-the-gravity-on-Venus-) 
+Information on Venus: [Venus Facts](https://space-facts.com/venus/) and [Cool Cosmos.](https://coolcosmos.ipac.caltech.edu/ask/48-How-strong-is-the-gravity-on-Venus-) 
 
 Information on Mars: [Mars Facts](https://space-facts.com/mars/). 
 

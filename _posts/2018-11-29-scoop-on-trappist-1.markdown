@@ -26,7 +26,7 @@ description: "A discussion on the newly discovered TRAPPIST-1 system and exoplan
  
  **Distance** 
  
- Distance is another perk to the TRAPPIST-1 system; at 39 light years we can see it well through telescopes and get better data. I'm sure you're aware that as you get further away from things, they get harder to see, right? Well, same thing with telescopes. They can't get as good data from systems 200 light years away as the TRAPPIST-1 system less than 39 light years away, because they can't get as much light. That means that, because of its proximity, we can get a lot of data from the system. **Planets** The TRAPPIST-1 system has seven planets, all rocky, and all very interesting. The planets all "have sizes and masses comparable to the Earth and Venus"[\[1\]](http://www.trappist.one/#about). And four reside in the habitable zone (one is the most ideal, TRAPPIST-1e, but TRAPPIST-1d and TRAPPIST-1f , and TRAPPIST-1g reside on the inner and outer edges). Out of the three, TRAPPIST-1e seems most likely for life. Most of these worlds are expected to have abundant amounts of water. 
+ Distance is another perk to the TRAPPIST-1 system; at 39 light years we can see it well through telescopes and get better data. I'm sure you're aware that as you get further away from things, they get harder to see, right? Well, same thing with telescopes. They can't get as good data from systems 200 light years away as the TRAPPIST-1 system less than 39 light years away, because they can't get as much light. That means that, because of its proximity, we can get a lot of data from the system. **Planets** The TRAPPIST-1 system has seven planets, all rocky, and all very interesting. The planets all "have sizes and masses comparable to the Earth and Venus"[\[1\]](https://www.trappist.one/#about). And four reside in the habitable zone (one is the most ideal, TRAPPIST-1e, but TRAPPIST-1d and TRAPPIST-1f , and TRAPPIST-1g reside on the inner and outer edges). Out of the three, TRAPPIST-1e seems most likely for life. Most of these worlds are expected to have abundant amounts of water. 
  
 ![PIA21424-1920x1200]({{ "assets/images/pia22093-16.jpg" | relative_url }}){: .img-post}
 
@@ -45,17 +45,17 @@ Well, now we know why TRAPPIST-1 was so popular in the past, but why is it back?
 
 All this information has been regurgitated multiple times by the media already, but what this MEANS probably has not. While not confirmed, a water world would be a significant discovery. I've always loved the thought of water worlds. What would living on a water world be like? Sailing and fishing would probably be popular. What life would exist underneath the surface? We know ocean life gets big due to not having to deal with gravity constraints, so creatures even bigger than whales could exist in the TRAPPIST-1e oceans. TRAPPIST-1e could spark some good works of fiction. If 100% confirmed, you can bet the media will be talking about it constantly. It would be the first water-world with an oxygen atmosphere ever confirmed, and all telescopes would be on it, because it would be the most likely candidate for extraterrestrial life we know of. 
 
-But how would we even get there? I talked a little about [interstellar travel](http://justscienceandgames.blog/2018/11/20/riding-a-moon-across-the-stars/), and the view was pretty bleak (I didn't want it to be!). The time to travel 39 light years would take a long time, and it can't happen in our lifetimes (unless someone launches a spacecraft that goes almost the speed of light soon, which is unlikely), but people two generations down might see it happen. But we do have something to look forward to; atmospheric analysis. Right now, everything is preliminary, but scientists will be working to more solidly prove that TRAPPIST-1e has an oxygen atmosphere. Then we need to prove it is indeed a water world. And THEN that's when we can consider visiting it with solar nanoprobes, if that's even possible. 
+But how would we even get there? I talked a little about [interstellar travel](https://justscienceandgames.blog/2018/11/20/riding-a-moon-across-the-stars/), and the view was pretty bleak (I didn't want it to be!). The time to travel 39 light years would take a long time, and it can't happen in our lifetimes (unless someone launches a spacecraft that goes almost the speed of light soon, which is unlikely), but people two generations down might see it happen. But we do have something to look forward to; atmospheric analysis. Right now, everything is preliminary, but scientists will be working to more solidly prove that TRAPPIST-1e has an oxygen atmosphere. Then we need to prove it is indeed a water world. And THEN that's when we can consider visiting it with solar nanoprobes, if that's even possible. 
 
 So, we will be getting a lot more data in the future about TRAPPIST-1 but won't be going there anytime soon. 
 
 Next up, I'll talk about the [James Webb Telescope](https://www.jwst.nasa.gov/) and its [delays and price hikes](https://www.space.com/41016-nasa-delays-james-webb-space-telescope-2021.html), because it will be one of the prime observers of this system to get even more of that juicy science data! I hope it's a water world! 
 
-_Note: If you want to learn more about TRAPPIST-1, visit [this website](http://www.trappist.one/#about), it contains everything you want to know and more!_ 
+_Note: If you want to learn more about TRAPPIST-1, visit [this website](https://www.trappist.one/#about), it contains everything you want to know and more!_ 
 
 **Sources**
 
-1.  [http://www.trappist.one/#about](http://www.trappist.one/#about)
+1.  [http://www.trappist.one/#about](https://www.trappist.one/#about)
 
 2.  Matt Williams. [https://www.universetoday.com/137480/what-is-the-transit-method/](https://www.universetoday.com/137480/what-is-the-transit-method/). _UniverseToday._
 
