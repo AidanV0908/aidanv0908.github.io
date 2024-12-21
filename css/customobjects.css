@@ -35,3 +35,29 @@
 	font-size: 80%; 
 	text-align: center;
 }
+
+#world-map path:not([class]) {
+    fill: #ddd;
+}
+
+#world-map circle:not([class]) {
+	fill: #ddd;
+}
+
+#world-map .lived{
+    fill: #1d76d5; /* Blue for lived-in countries */
+}
+
+#world-map .visited {
+    fill: #15cf24; /* Green for visited countries */
+}
+
+#world-map .visited:hover {
+	filter: brightness(0.8);
+    cursor: pointer;
+}
+
+#world-map .lived:hover {
+	filter: brightness(0.8);
+    cursor: pointer;
+}

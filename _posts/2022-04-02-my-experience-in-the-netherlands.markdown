@@ -2,7 +2,7 @@
 layout: post
 title:  "[PORTED] My Experience in the Netherlands"
 date:   2022-04-02 00:00:00 -0500
-category: earth
+category: netherlands
 author: Aidan Velleca
 thumbnail_link: "assets/images/windmill.jpg"
 description: "Travel to Amsterdam, Rotterdam, and Zaandvort"

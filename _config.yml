@@ -31,6 +31,80 @@ permalink: pretty
 plugins:
   - jekyll-feed
 
+# My variables for countries visited and lived in
+countries_visited: 
+  - name: Morocco
+    code: MA
+    description: "I spent March 17 - March 20, 2023 in Morocco while studying abroad in Spain. 
+    I visited the cities of Tangier, Chefchaouen, Casablanca, and Marrakech, navigating my way down the country by bus."
+  - name: Israel
+    code: IL
+    description: "I took a trip to Israel with my family in in April 2017. We visited the cities of Jerusalem and Tel Aviv, as well as the
+    Red and Dead Seas."
+  - name: Andorra
+    code: AD
+    description: "I visited Andorra in March 2023 while studying abroad in Spain. I stayed in Andorra la Vella, the capital, and went skiing in 
+    El Pas de la Casa, close to the French border."
+  - name: Austria
+    code: AT
+    description: "I visited Austria as part of my spring break while studying abroad in Spain. I visited the city of Vienna."
+  - name: Czech Republic
+    code: CZ
+    description: "I visited the Czech Republic as part of my spring break while studying abroad in Spain. I visited the city of Prague."
+  - name: France
+    code: FR
+    description: "I visited the city of Paris in November 2019 on my very first Eurotrip with my family."
+  - name: Hungary
+    code: HU
+    description: "I visited Hungary as part of my spring break while studying abroad in Spain. I visited the city of Budapest."
+  - name: Italy
+    code: IT
+    description: "I visited Italy for a month from July to August 2024."
+  - name: Netherlands
+    code: NL
+    description: "I visited the Netherlands during my spring break in 2022. I visited the city of Amsterdam, Zaandvort, and Rotterdam."
+  - name: Portugal
+    code: PT
+    description: "I visited Portugal in June 2023 while studying abroad in Spain. I visited the city of Lisbon."
+  - name: Slovakia
+    code: SK
+    description: "I visited Bratislava, Slovakia as part of my spring break while studying abroad in Spain, just after visiting Vienna."
+  - name: Switzerland
+    code: CH
+    description: "I visited Zurich, Switzerland as my last stop on my spring break while studying abroad in Spain."
+  - name: United Kingdom
+    code: GB
+    description: "I visited Londom in November 2019 on my very first Eurotrip with my family."
+  - name: Canada
+    code: CA
+    description: "I visited Toronto, Canada in October 2022."
+  - name: Costa Rica
+    code: CR
+    description: "I visited Costa Rica twice, once on a high school trip in 2019 and once as a kid in 2014."
+  - name: Dominican Republic
+    code: DO
+    description: "I visited the Dominican Republic on a cruise in 2019."
+  - name: Haiti
+    code: HT
+    description: "I visited the island of Haiti on a cruise in 2019. I visited the private port of Labadee."
+  - name: Jamaica
+    code: JM
+    description: "I visited Jamaica on a cruise in 2017."
+  - name: Mexico
+    code: MX
+    description: "I visited twice. The first was a cruise to Cozumel in 2019 and the second was to Mexico City in March 2024."
+  - name: Peru
+    code: PE
+    description: "I visited Peru once as a kid in 2014."
+
+countries_lived:
+  - name: United States
+    code: US
+    description: "I was born and raised in the United States."
+  - name: Spain
+    code: ES
+    description: "I lived in Spain for 5 months from January to June 2023 while studying abroad."
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
