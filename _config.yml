@@ -96,6 +96,21 @@ countries_visited:
   - name: Peru
     code: PE
     description: "I visited Peru once as a kid in 2014."
+  - name: Vietnam
+    code: VN
+    description: "I visited Vietnam during my graduation trip during Dec 2024 - Jan 2025."
+  - name: Thailand
+    code: TH
+    description: "I visited Thailand during my graduation trip during Dec 2024 - Jan 2025."
+  - name: Singapore
+    code: SG
+    description: "I visited Singapore during my graduation trip during Dec 2024 - Jan 2025."
+  - name: Philippines
+    code: PH
+    description: "I visited the Philippines during my graduation trip during Dec 2024 - Jan 2025."
+  - name: Laos
+    code: LA
+    description: "I visited Laos during my graduation trip during Dec 2024 - Jan 2025."
 
 countries_lived:
   - name: United States
