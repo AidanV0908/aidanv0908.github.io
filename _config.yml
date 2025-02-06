@@ -111,6 +111,9 @@ countries_visited:
   - name: Laos
     code: LA
     description: "I visited Laos during my graduation trip during Dec 2024 - Jan 2025."
+  - name: South Korea
+    code: KR
+    description: "I visited South Korea during my graduation trip during Dec 2024 - Jan 2025."
 
 countries_lived:
   - name: United States
