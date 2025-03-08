@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[PORTED] Riding A Moon Across The Stars"
+title:  "Riding A Moon Across The Stars"
 date:   2018-11-20 22:59:00 -0500
-category: space
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/asteroid-1477065_1280-1.jpg"
 description: "A brief 'feasibility' study of turning Phobos into an intersteller generation ship"

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[PORTED] First Game Jam"
+title:  "First Game Jam"
 date:   2020-09-03 08:59:00 -0500
-category: mind
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/movement.png"
 description: "My experience in my first game jam"

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[PORTED] HD 186302: Our Sun's Wannabe"
+title:  "HD 186302: Our Sun's Wannabe"
 date:   2018-10-21 21:59:00 -0500
-category: space
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/tanishq-tiwari-558793-unsplash-scaled.jpg"
 description: "Our sun has a twin!"

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[PORTED] Is Red Dead Redemption 2 Worth the Money?"
+title:  "Is Red Dead Redemption 2 Worth the Money?"
 date:   2018-11-04 18:52:00 -0500
-category: mind
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/mahir-uysal-568303-unsplash-1-scaled.jpg"
 description: "A discussion of the value of Red Dead Redemption 2"

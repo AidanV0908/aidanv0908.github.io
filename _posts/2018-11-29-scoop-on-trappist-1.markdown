@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[PORTED] The Scoop on the TRAPPIST-1 System"
+title:  "The Scoop on the TRAPPIST-1 System"
 date:   2018-11-29 20:27:00 -0500
-category: space
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/Trappist1.jpg"
 description: "A discussion on the newly discovered TRAPPIST-1 system and exoplanet discovery techniques"

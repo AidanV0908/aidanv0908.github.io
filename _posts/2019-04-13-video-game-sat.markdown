@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[PORTED] Video Game SAT"
+title:  "Video Game SAT"
 date:   2019-04-13 19:11:00 -0500
-category: mind
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/controller.jpg"
 description: "Making the SAT into a user-curated video game to avoid cheating"

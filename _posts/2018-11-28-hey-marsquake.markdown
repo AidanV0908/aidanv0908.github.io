@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[PORTED] Hey, it's a Marsquake!"
+title:  "Hey, it's a Marsquake!"
 date:   2018-11-28 22:31:00 -0500
-category: space
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/mars-11012_1920.jpg"
 description: "Discussion on the seismic activity on Mars"

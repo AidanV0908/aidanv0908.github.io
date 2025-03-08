@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[PORTED] Opinion on New Clash Royale Update"
+title:  "Opinion on New Clash Royale Update"
 date:   2018-12-06 20:36:00 -0500
-category: mind
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/33848624946_4f501f796b_b.jpg"
 description: "My opinions on the latest Clash Royale update"

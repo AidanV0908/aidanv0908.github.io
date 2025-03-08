@@ -2,7 +2,7 @@
 layout: post
 title:  "[PORTED] SpaceX's Timeline"
 date:   2018-10-29 22:17:00 -0500
-category: space
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/spacex-82137-unsplash-scaled.jpg"
 description: "Is SpaceX's timeline too aggressive?"

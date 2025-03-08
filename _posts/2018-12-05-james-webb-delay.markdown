@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[PORTED] James Webb Space Telescope Delays"
+title:  "James Webb Space Telescope Delays"
 date:   2018-12-05 19:55:00 -0500
-category: space
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/james-webb-space-telescope.jpg"
 description: "Discussion on the delays of the James Webb Space Telescope"

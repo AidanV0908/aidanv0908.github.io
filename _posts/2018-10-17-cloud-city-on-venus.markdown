@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[PORTED] Cloud City on Venus?"
+title:  "Cloud City on Venus?"
 date:   2018-10-17 20:52:00 -0500
-category: space
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/venus-11022_1280.jpg"
 description: "What if humans could actually survive on Venus?"

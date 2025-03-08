@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[PORTED] Which Type of Game Will Take the Place of Battle Royale?"
+title:  "Which Type of Game Will Take the Place of Battle Royale?"
 date:   2018-10-21 21:59:00 -0500
-category: mind
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/ugur-akdemir-238673-unsplash-scaled.jpg"
 description: "With Fortnite on its way out, what will take its place?"

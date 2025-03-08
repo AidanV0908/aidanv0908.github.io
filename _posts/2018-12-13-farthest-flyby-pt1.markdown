@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[PORTED] The Farthest Flyby Pt. 1"
+title:  "The Farthest Flyby Pt. 1"
 date:   2018-12-13 21:08:00 -0500
-category: space
+category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/643px-New_Horizons_Transparent.png"
 description: "About the New Horizon's MU69 Flyby Pt1"
