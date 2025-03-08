@@ -1,35 +1,16 @@
 ---
 layout: post
-title:  "Graduation Trip in Vietnam"
-date:   2022-04-02 00:00:00 -0500
-category: vietnam
+title:  "Graduation Trip in Laos"
+date:   2022-03-07 00:00:00 -0800
+category: laos
 author: Aidan Velleca
-description: "What I experienced in Vietnam on my college graduation trip to Vietnam, Laos, Thailand, and the Philippines"
+description: "What I experienced in Laos on my college graduation trip to Vietnam, Laos, Thailand, and the Philippines"
 ---
 
 #### **What I Did**
-My trip in Vietnam began in Ho Chi Minh City, or Saigon. I flew there by myself, and met up with two friends upon landing in the city. The reason we chose Vietnam as a destination was because we had another friend from there. He ended up not being able to go, unfortunately, but he was able to give us some advice for things to do and places to see. During our trip, we went to the following locations, in order:
 
+My trip in Laos was contained solely within Luang Prabang and its surroundings. Laos was a very scenic country and was incredible for nature-lovers. The Kuang-Si waterfalls are gorgeous and a must-visit, and I could spend hours walking along the Mekong River on the edge of the penninsula. The Pak Ou caves were amazing as well. Another highlight is the religious stuff, including the temples and morning alms-giving ceremony. Although I noticed a lot of disrespectful tourists during the alms-giving, the actual temples are not overcrowded and feels more authentic when compared to Thailand. I also rode a motorcycle here for the first time, which was a cool experience. If you've ever been to Southeast Asia, you'd know that it is an important skill to know over there. It definitely has utility, but I hope to never have a major accident on one. It does feel a little dangerous.
 
-1) Ho Chi Minh City
+#### **Overall Trip Report**
 
-2) Da Nang / Hue
-
-3) Hanoi
-
-4) Ha Long Bay
-
-There were also some locations I wanted to go to, but unfortunately was not able to squeeze in.
-
-1) Dalat
-
-2) Sapa
-
-3) Phu Quoc
-
-4) Ha Giang Loop
-
-#### **Ho Chi Minh City**
-
-
-
+Laos is gorgeous. While not the top country on my graduation trip, a spot yielded to Vietnam, it is a beautiful, relaxing destination and feels like a hidden gem. I cannot say much for the rest of the country, but the city of Luang Prabang, a UNESCO heritage site, should be added to more travel iteneraries.
