@@ -3,6 +3,7 @@ layout: post
 title:  "Graduation Trip in Laos"
 date:   2022-03-07 00:00:00 -0800
 category: laos
+thumbnail_link: "assets/images/Laos_Mount_Phousi.jpg"
 author: Aidan Velleca
 description: "What I experienced in Laos on my college graduation trip to Vietnam, Laos, Thailand, and the Philippines"
 ---

@@ -3,6 +3,7 @@ layout: post
 title:  "Graduation Trip in Vietnam"
 date:   2025-03-07 00:00:00 -0800
 category: vietnam
+thumbnail_link: "assets/images/Vietnam_Train_Street.JPG"
 author: Aidan Velleca
 description: "What I experienced in Vietnam on my college graduation trip to Vietnam, Laos, Thailand, and the Philippines"
 ---
