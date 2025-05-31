@@ -1,0 +1,33 @@
+---
+layout: posts
+title:  "HD 186302: Our Sun's Wannabe"
+date:   2018-10-21 21:59:00 -0500
+category: archive
+author: Aidan Velleca
+thumbnail_link: "assets/images/tanishq-tiwari-558793-unsplash-scaled.jpg"
+description: "Our sun has a twin!"
+---
+*Note: This is ported content from my previous blog. It may appear in a format different than intended. It is also from a version of myself that was younger and dumber. I like to keep this content around for posterity.*
+
+All stars start out in a stellar nursery, where they gain the massive amount of materials they need to become stars. These nurseries, also known as nebulae, are the remnants of supernovas. These nebulae each have unique concentrations of elements, so stars produced in them have a unique mark. Scientists found a star very much like our own, containing a similar elemental makeup, which suggests it may have been born in our stellar neighborhood. It's age is also similar to our sun. Its name? HD 186302. Not a really special name, I know, but it's super cool to see a star like our sun, considering most of the stars around us are tiny red dwarves. This star is a G3 star (slightly cooler than our G2 sun), and is solitary, at least according to what we know. It's interesting to think what could be around it.
+
+![nasa-89125-unsplash]({{ "assets/images/nasa-89125-unsplash.jpg" | relative_url }}){: .img-post}  
+
+Nebula by [NASA](https://unsplash.com/photos/rTZW4f02zY8?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/nebula?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+{: .caption-post}
+
+There are trademarks that make our solar system our solar system, things we rarely see elsewhere. According to _Phys.org,_ the fact that our gas giants are so far from the sun and that our planets have very circular orbits is a trait that is uncommon in other solar systems so far. A lot of solar systems have hot Jupiters with eccentric orbits. That may be the norm, or it may be just selection bias; these planets are easier to see. But if we detect planets around HD 186302, it will be interesting to see if we find a hot Jupiter or a Jupiter like ours, very far out. Will we find an Earth twin around this solar twin? It's relatively near, so it'd be a cool idea to send a probe to it, but notice the "relatively." Relatively in space is still 184 light years in this case. Darn. Well, I guess our intrepid explorers on the Phobos ship (discussed [here](https://justscienceandgames.blog/2018/11/20/riding-a-moon-across-the-stars/)) won't be going here, it's too far! Unless we go really fast, which is a story for another day. But 184 light years is still close enough to get some good data on it via a telescope. 
+
+We already see a few differences in this system, like the star being a little bit colder, but it is close enough to be classified as a solar analog. The question is, is it close enough to the Sun where it counts? Could we see some solar-like planets, if not an Earth 2.0 then maybe a Mars 2.0, or a Saturn 2.0? I can't wait to here more about this star system.   
+
+**Sources**
+
+1.   Michelle Star. [We May Have Found Our Sun's Long Lost Identical Twin Star.](https://www.sciencealert.com/we-may-have-found-our-sun-s-long-lost-identical-twin-star) _Science Alert._
+
+2.  [HD 182306 Simbad Reference.](http://simbad.u-strasbg.fr/simbad/sim-id?Ident=HD+186302)
+
+3.  [Is The Solar System Unique in The Universe?](https://phys.org/news/2004-08-solar-unique-universe.html) _Phys.org._
+
+4.  Sun Image by [Tanishq Tiwari](https://unsplash.com/photos/ZYzLDzHZF08?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash.](https://unsplash.com/search/photos/sun?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+5.  Nebula by [NASA](https://unsplash.com/photos/rTZW4f02zY8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/nebula?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
