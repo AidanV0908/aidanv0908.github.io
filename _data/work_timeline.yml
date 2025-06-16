@@ -1,0 +1,31 @@
+- icon: /assets/images/astroforge.jpg
+  title: Flight Dynamics Engineering Intern
+  company: Astroforge
+  company_url: https://astroforge.com
+  date: Mar 2025 – Present
+  location: Seal Beach, CA, USA
+  bullets:
+    - Operated Ansys Orbit Determination Toolkit (ODTK) through script to analyze filter performance on mock trajectory with multiple ground station and measurement type combinations
+    - Automated asteroid target selection process to include newly discovered NEOs in real-time using Python, Google Cloud, and NASA APIs
+    - Developed reference trajectory using NASA GMAT software
+- icon: /assets/images/northrop_grumman.png
+  title: Guidance, Navigation & Control Engineer
+  company: Northrop Grumman
+  company_url: https://www.northropgrumman.com/
+  date: May 2024 – Aug 2024
+  location: Dulles, VA, USA
+  bullets:
+    - Innovated simulator to include new truth values in new reference frames to support docking
+    - Introduced a lighting requirement to ensure that spacecraft camera is not facing the sun for too long when within docking range
+    - Created a new, more robust distance-finding algorithm to avoid spacecraft collisions and trigger abort procedure
+- icon: /assets/images/sprintray.jpg
+  title: Research and Development Intern
+  company: SprintRay
+  company_url: https://www.sprintray.com/
+  date: May 2022 – Aug 2022
+  location: Dulles, VA, USA
+  bullets:
+    - Engineered a new mirror calibration tool in SolidWorks for 3D printers to allow for more precise adjustments challenging to make by hand
+    - Designed model to simulate layer distortion from poor calibration and output correction process
+    - Analyzed and repaired broken printers
+    

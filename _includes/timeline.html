@@ -1,0 +1,30 @@
+<div class="timeline">
+  {% for item in include.items %}
+    <div class="timeline-item">
+      <div class="timeline-icon">
+        {% if item.icon %}
+          <img src="{{ item.icon }}" alt="" />
+        {% endif %}
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-header">
+          <h3>
+            <strong>{{ item.title }}</strong>
+            {% if item.company_url %}
+              <a href="{{ item.company_url }}" target="_blank" rel="noopener">{{ item.company }}</a>
+            {% else %}
+              {{ item.company }}
+            {% endif %}
+          </h3>
+          <span class="timeline-date">{{ item.date }}</span>
+          <span class="timeline-location">{{ item.location }}</span>
+        </div>
+        <ul>
+          {% for bullet in item.bullets %}
+            <li>{{ bullet }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endfor %}
+</div>

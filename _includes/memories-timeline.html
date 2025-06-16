@@ -1,0 +1,34 @@
+<div class="memories-timeline">
+{% for item in include.items %}
+    {% assign remainder = forloop.index0 | modulo: 2 %}
+    <div class="memories-item{% if remainder == 0 %} even{% endif %}">
+        {% if remainder == 0 %}
+        <div class="memories-photo-wrapper left">
+          <img class="memories-polaroid left" src="{{ item.photo }}" alt="{{ item.org }} photo">
+        </div>
+        {% else %}
+        <div class="memories-photo-wrapper right">
+          <img class="memories-polaroid right" src="{{ item.photo }}" alt="{{ item.org }} photo">
+        </div>
+        {% endif %}
+        <div class="memories-details">
+          <div class="memories-org">{{ item.org }}</div>
+          {% if item.location %}
+            <div class="memories-pin-location">
+              <span class="memories-pin" title="Location">
+                <!-- SVG pin icon -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="#bbb" style="vertical-align: middle;">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/>
+                </svg>
+              </span>
+              <span class="memories-location">{{ item.location }}</span>
+            </div>
+          {% endif %}
+          {% if item.desc %}
+            <div class="memories-desc">{{ item.desc }}</div>
+          {% endif %}
+          <div class="memories-dates">{{ item.dates }}</div>
+        </div>
+    </div>
+  {% endfor %}
+</div>

@@ -566,3 +566,219 @@ pre {
     opacity: 1;
   }
 }
+
+/**
+  CUSTOM TIMELINE CSS
+  ========================================================================== */
+.timeline {
+  position: relative;
+  margin: 2rem 0 0 2rem; // was 30px
+  padding-left: 0rem; // was 30px
+  border-left: 3px solid $border-color;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2.5rem; // half of .timeline-icon height (5rem / 2)
+    height: calc(100% - 2.5rem);
+    width: 0.2rem;
+    background: $border-color;
+    z-index: 0;
+  }
+  border-left: none;
+}
+.timeline-item {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+.timeline-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4rem;
+  height: 4rem;
+  background: $background-color;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.2rem solid $border-color;
+  overflow: hidden;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+.timeline-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.timeline-content {
+  background: $timeline-color;
+  color: #fff;
+  border-radius: 0.7rem;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  margin-left: 2.4rem; // was 24px
+}
+.timeline-header h3 {
+  margin: 0 0 0.2em 0;
+  font-size: 1.15em;
+}
+.timeline-header a {
+  color: $primary-color;
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+.timeline-date, .timeline-location {
+  display: inline-block;
+  font-size: 0.95em;
+  color: $text-color;
+  margin-right: 1em;
+}
+.timeline-content ul {
+  margin: 0.7em 0 0 1.2em;
+  padding: 0;
+}
+.timeline-content li {
+  margin-bottom: 0.4em;
+  line-height: 1.5;
+}
+
+
+.memories-timeline {
+  width: 100%;
+  margin-top: 3rem;
+  padding: 0;
+}
+
+.memories-item {
+  display: flex;
+  align-items: center;
+  width: 70vw;
+  max-width: 900px;
+  margin: 0rem 0;
+}
+
+.memories-item.even {
+  margin-left: 5vw;    // starts at 0.05, ends at 0.75
+  margin-right: auto;
+  flex-direction: row;
+}
+
+.memories-item:not(.even) {
+  margin-left: auto;
+  margin-right: 5vw;   // starts at 0.3, ends at 0.95
+  flex-direction: row-reverse;
+}
+
+.memories-pin-location {
+  gap: 0.4em;
+  margin: 0.3em 0 0.3em 0;
+  font-size: 1rem;
+  color: #bbb;
+}
+.memories-item:not(.even) .memories-pin-location {
+  justify-content: flex-end;
+}
+.memories-pin {
+  display: inline-flex;
+  align-items: center;
+}
+.memories-location {
+  color: #bbb;
+  font-size: 1em;
+}
+
+.memories-photo-wrapper {
+  width: 20vw;
+  aspect-ratio: 1 / 1 !important;
+  min-width: 140px;
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.memories-polaroid {
+  background: #fff;
+  border: 10px solid #fff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18), 0 1.5px 8px rgba(0,0,0,0.10);
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+
+.memories-item.even .memories-polaroid {
+  transform: rotate(-10deg);
+}
+.memories-item:not(.even) .memories-polaroid {
+  transform: rotate(10deg);
+}
+
+.memories-details {
+  min-width: 180px;
+  padding: 1rem 2rem;
+  text-align: left;
+}
+
+.memories-item:not(.even) .memories-details {
+  text-align: right;
+}
+
+.memories-org {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+.memories-desc {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0.5rem 0;
+  color: #bbb;
+}
+.memories-dates {
+  font-size: 1.1rem;
+  color: #666;
+  font-family: 'Fira Mono', monospace, monospace;
+}
+
+@media (max-width: 900px) {
+  .memories-item,
+  .memories-item.even,
+  .memories-item:not(.even) {
+    width: 88vw;
+    padding: 0 !important;
+    margin-left: 6vw !important;
+    margin-right: 6vw !important;
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .memories-details {
+    text-align: center !important;
+    padding: 1rem 0;
+    min-width: 0;
+    max-width: 98vw;
+  }
+  .memories-photo-wrapper {
+    width: 60vw;
+    min-width: 120px;
+    max-width: 300px;
+    height: 60vw;
+    min-height: 120px;
+    max-height: 300px;
+    margin-bottom: 1rem;
+    justify-content: center !important;
+  }
+  .memories-item.even .memories-polaroid {
+    transform: rotate(0deg);
+  }
+  .memories-item:not(.even) .memories-polaroid {
+    transform: rotate(0deg);
+  }
+}

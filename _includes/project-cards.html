@@ -1,0 +1,67 @@
+<style>
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+  margin: 2rem 0;
+}
+.project-card {
+  background: #23272f;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  width: 320px;
+  max-width: 90vw;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.15s;
+}
+.project-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+}
+.project-card img {
+  width: 100%;
+  border-radius: 0.7rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  max-height: 140px;
+  background: #111;
+}
+.project-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+.project-desc {
+  color: #bbb;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+.project-link {
+  margin-top: auto;
+  color: #2d9cdb;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.project-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+</style>
+<div class="projects-grid">
+  {% for project in site.data.projects %}
+    <div class="project-card">
+      {% if project.image %}
+        <img src="{{ project.image }}" alt="{{ project.name }} screenshot">
+      {% endif %}
+      <div class="project-title">{{ project.name }}</div>
+      <div class="project-desc">{{ project.desc }}</div>
+      <a class="project-link" href="{{ project.url }}" target="_blank">View Project &rarr;</a>
+    </div>
+  {% endfor %}
+</div>
