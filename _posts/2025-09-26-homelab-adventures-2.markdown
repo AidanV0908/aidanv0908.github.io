@@ -50,7 +50,7 @@ network:
 
 You can see that for `enp3s0`, the network interface I am using, I have a fixed private IP address. After changing this document, you should run `sudo netplan apply`. Ubuntu has a lot more information about this, as well as other networking tips, in their [documentation](https://documentation.ubuntu.com/server/explanation/networking/configuring-networks/#static-ip-address-assignment). As a footnote for anyone using Google Wifi like I do, an alternative is to go to `Wifi -> Network Settings -> Advanced Networking -> DHCP IP Reservations`, click on the `+` button, and then find your device by name and assign an IP address to reserve.
 
-The next step is to finish setting up OpenSSH, which includes creating the SSH keys. SSH, or the Secure SHell Protocol, allows you to connect to your homelab remotely. There are a lot of resources on how to do this online, so I won't talk too much about it here, but a great source is once again the [Ubuntu documentation](https://documentation.ubuntu.com/server/how-to/security/openssh-server/#install-openssh). Once you complete these steps, you should be able to access it from clients using the following command:
+The next step is to finish setting up OpenSSH, which includes creating the SSH keys to allow access without a password. SSH, or the Secure SHell Protocol, allows you to connect to your homelab remotely. There are a lot of resources on how to do this online, so I won't talk too much about it here, but a great source is once again the [Ubuntu documentation](https://documentation.ubuntu.com/server/how-to/security/openssh-server/#install-openssh). Once you complete these steps, you should be able to access it from clients using the following command:
 
     ssh user@ip
 
