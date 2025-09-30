@@ -6,6 +6,7 @@ category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/james-webb-space-telescope.jpg"
 description: "Discussion on the delays of the James Webb Space Telescope"
+published: false
 ---
 *Note: This is ported content from my previous blog. It may appear in a format different than intended. It is also from a version of myself that was younger and dumber. I like to keep this content around for posterity.*
 

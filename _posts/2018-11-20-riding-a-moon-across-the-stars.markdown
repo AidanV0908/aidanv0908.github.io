@@ -6,6 +6,7 @@ category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/asteroid-1477065_1280-1.jpg"
 description: "A brief 'feasibility' study of turning Phobos into an intersteller generation ship"
+published: false
 ---
 *Note: This is ported content from my previous blog. It may appear in a format different than intended. It is also from a version of myself that was younger and dumber. I like to keep this content around for posterity.*
 

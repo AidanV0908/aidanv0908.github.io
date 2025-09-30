@@ -6,6 +6,7 @@ category: laos
 thumbnail_link: "assets/images/Laos_Mount_Phousi.jpg"
 author: Aidan Velleca
 description: "What I experienced in Laos on my college graduation trip to Vietnam, Laos, Thailand, and the Philippines"
+published: false
 ---
 
 #### **What I Did**

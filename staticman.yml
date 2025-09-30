@@ -23,7 +23,7 @@ comments:
   #
   # Name of the branch being used. Must match the one sent in the URL of the
   # request.
-  branch: "master"
+  branch: "MinimalMistakes" # "master"
 
   commitMessage: "New comment by {fields.name}"
 
@@ -61,7 +61,7 @@ comments:
   #   type: "comment"
 
   # Name of the site. Used in notification emails.
-  # name: "Your Site"
+  name: "Aidan Velleca's Personal Site"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
@@ -98,7 +98,7 @@ comments:
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
     enabled: true
-    siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
+    siteKey: "6LdXutUrAAAAAN_WKxyr7ABgcgC2QAqj5BymdNp8"
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
-    secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
+    secret: "JpQvJbN97RI1aMLtazgLfzFBozGt4bTOknfbsCDjq5oCHY54lgpMLZQgaeVYiCALuTw6xPl431xnEiWJiS1c3Os9joKmhTA1W7Zzod4bUzhDkJ+5AIOiVD7gkC2HZXNn+NHCz4UwRpnYfd8jXjfs++dgeMUcFpkxZlDpS9TgofYP44HWDVVqI1+d69F6ZRa7SV4ELQu8W80HW6+t8TkPiIhq+n9fdMZ9NRUNyPDOBsUoHZGuJeZsHPo6qut8bNgYJef4kTumIBqBzkCIdBzNvhc2/GxvzrFb88FaM3TToE+ZGwv2OSOhYQ6SeMr8GcgDDJCqiUG9IZ2ndI91O3dCgA=="

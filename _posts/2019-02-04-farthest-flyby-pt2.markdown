@@ -6,6 +6,7 @@ category: archive
 author: Aidan Velleca
 thumbnail_link: "assets/images/ultima_thule_original_vs_sharpened.jpg"
 description: "About the New Horizon's MU69 Flyby Pt2"
+published: false
 ---
 *Note: This is ported content from my previous blog. It may appear in a format different than intended. It is also from a version of myself that was younger and dumber. I like to keep this content around for posterity.*
 

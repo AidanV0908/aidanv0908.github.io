@@ -6,33 +6,77 @@
   justify-content: flex-start;
   margin: 2rem 0;
 }
+.project-card-link {
+  text-decoration: none;
+  color: inherit;
+  width: 30%;
+  max-width: 90vw;
+  display: block;
+  border-radius: 1rem;
+  transition: transform 0.15s;
+  aspect-ratio: 1 / 1; /* Makes each card square */
+}
+.project-card-link:hover .project-card {
+  transform: scale(1.04);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+}
+.project-card-link:focus,
+.project-card-link:active {
+  outline: none;
+}
+.project-card-link:focus .project-card,
+.project-card-link:active .project-card {
+  box-shadow: 0 4px 24px rgba(45,156,219,0.35);
+}
 .project-card {
   background: #23272f;
   border-radius: 1rem;
   box-shadow: 0 2px 12px rgba(0,0,0,0.12);
-  width: 320px;
-  max-width: 90vw;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  transition: transform 0.15s;
+  position: relative;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+  transition: box-shadow 0.15s, transform 0.15s;
 }
-.project-card:hover {
-  transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+.project-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--project-image);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.35;
+  z-index: 0;
+  pointer-events: none;
+  border-radius: 1rem;
 }
-.project-card img {
-  width: 100%;
-  border-radius: 0.7rem;
-  margin-bottom: 1rem;
-  object-fit: cover;
-  max-height: 140px;
-  background: #111;
+/* Prevent underline on selection */
+.project-title,
+.project-date,
+.project-desc {
+  position: relative;
+  z-index: 1;
+  text-decoration: none !important;
+  -webkit-user-select: text;
+  user-select: text;
+}
+.project-card-link *::selection {
+  background: #2d9cdb;
+  color: #fff;
+  text-decoration: none;
 }
 .project-title {
   font-size: 1.3rem;
   font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+.project-date {
+  font-size: 1.1rem;
   margin-bottom: 0.5rem;
   color: #fff;
 }
@@ -42,26 +86,17 @@
   font-size: 1.05rem;
 }
 .project-link {
-  margin-top: auto;
-  color: #2d9cdb;
-  font-weight: bold;
-  text-decoration: none;
-  transition: color 0.15s;
-}
-.project-link:hover {
-  color: #fff;
-  text-decoration: underline;
+  display: none;
 }
 </style>
 <div class="projects-grid">
   {% for project in site.data.projects %}
-    <div class="project-card">
-      {% if project.image %}
-        <img src="{{ project.image }}" alt="{{ project.name }} screenshot">
-      {% endif %}
-      <div class="project-title">{{ project.name }}</div>
-      <div class="project-desc">{{ project.desc }}</div>
-      <a class="project-link" href="{{ project.url }}" target="_blank">View Project &rarr;</a>
-    </div>
+    <a class="project-card-link" href="{{ project.url | relative_url }}" style="--project-image: url('{{ project.image }}');" target="_blank">
+      <div class="project-card">
+        <div class="project-title">{{ project.name }}</div>
+        <div class="project-date">{{ project.date }}</div>
+        <div class="project-desc">{{ project.desc }}</div>
+      </div>
+    </a>
   {% endfor %}
 </div>

@@ -1,4 +1,16 @@
+- name: Home Server
+  desc: Set up my own Linux home server
+  url: /projects/homelab-adventures-1/
+  # image: /assets/images/home-server.jpg
+  date: July 2025 - Aug 2025
+  image: /assets/images/homelab_top_off.jpg
+# - name: Custom Monitor Arm
+#  date: July 2025
+#  desc: How I designed and printed a monitor arm from scratch.
+  # image: /assets/images/monitor-arm.jpg
+#  url: /projects/3d-printed-monitor-arm/
 - name: SkyViewer
   desc: Uses TLE information to display information about LEO satellites. Built with Flask and Python.
   url: https://www.skyviewer.dev/
+  date: Oct 2024 - Dec 2024
   image: /assets/images/skyviewer.jpeg
