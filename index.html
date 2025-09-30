@@ -17,9 +17,9 @@ search: false
       <div style="flex: 1;">
         <p>
           Aidan Velleca graduated from Purdue University with a Bachelor's of Aeronautical and Astronautical Engineering (BSAAE) in December 2024. Aidan has been working to define himself in the space industry,
-          mostly within the area of mission operations. However, he is also interested in anything related to software development. In his free time, Aidan enjoys learning new languages such as Spanish and Italian,
+          mostly within the area of mission operations. <span class="bio-mobile-hide">However, he is also interested in anything related to software development. In his free time, Aidan enjoys learning new languages such as Spanish and Italian,
           playing beach volleyball, and spending time with friends, family, and his two dogs, Ollie and Teddy. He has a passion for adventure, and has visited 28 different countries. As an LA native, you might find Aidan 
-          at the beach, or in the mountains hiking.
+          at the beach, or in the mountains hiking.</span>
         </p>
       </div>
     </div>
@@ -51,3 +51,11 @@ search: false
     {% include project-cards.html %}
   </section>
 </div>
+
+<style>
+  @media (max-width: 600px) {
+  .bio-mobile-hide {
+    display: none;
+  }
+}
+</style>
