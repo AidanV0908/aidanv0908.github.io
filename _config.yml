@@ -321,7 +321,7 @@ defaults:
       show_date: true
       author_profile: false
       read_time: true
-      comments: true
+      comments: false
       classes: wide
       share: false
       related: true
