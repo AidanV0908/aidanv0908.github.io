@@ -61,7 +61,7 @@ comments:
     lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
     branch               : "MinimalMistakes" # "master"
-    endpoint             : "https://staticman.aidanvelleca.com/v2/entry/github/"
+    endpoint             : "https://staticman.aidanvelleca.com/v3/entry/github/"
 reCaptcha:
     siteKey: "6LdXutUrAAAAAN_WKxyr7ABgcgC2QAqj5BymdNp8"
     secret: "JpQvJbN97RI1aMLtazgLfzFBozGt4bTOknfbsCDjq5oCHY54lgpMLZQgaeVYiCALuTw6xPl431xnEiWJiS1c3Os9joKmhTA1W7Zzod4bUzhDkJ+5AIOiVD7gkC2HZXNn+NHCz4UwRpnYfd8jXjfs++dgeMUcFpkxZlDpS9TgofYP44HWDVVqI1+d69F6ZRa7SV4ELQu8W80HW6+t8TkPiIhq+n9fdMZ9NRUNyPDOBsUoHZGuJeZsHPo6qut8bNgYJef4kTumIBqBzkCIdBzNvhc2/GxvzrFb88FaM3TToE+ZGwv2OSOhYQ6SeMr8GcgDDJCqiUG9IZ2ndI91O3dCgA=="
