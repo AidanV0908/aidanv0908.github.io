@@ -6,7 +6,7 @@ tags: homelab linux docker
 author: Aidan Velleca
 description: "Setting up a Service and Docker Compose Basics"
 header:
-    teaser: "assets/images/ubuntu_startup.png"
+    teaser: "assets/images/docker-compose.jpg"
 ---
 Once you have a functional machine, it is time to use your compute resources to run your own services! Docker services can be built in two ways, with the `docker run` command and via a compose file using the tool docker compose. I prefer the latter, since generally setting up a docker service allows you to specify many different parameters for how that service is run. For instance, here's a config for one of my services, Linkwarden. Linkwarden is a self hosted bookmark manager that I think just has a better tagging and notes system to keep track of my important links.
 

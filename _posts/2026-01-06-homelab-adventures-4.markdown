@@ -5,6 +5,7 @@ category: projects
 tags: homelab linux docker grafana
 author: Aidan Velleca
 description: "Setting up a Service and Docker Compose Basics"
+published: false
 header:
     teaser: "assets/images/ubuntu_startup.png"
 ---
