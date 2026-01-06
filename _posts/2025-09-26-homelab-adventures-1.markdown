@@ -21,7 +21,7 @@ Why should you create a homelab? Well, hypothetical reader, that is a good quest
 * **[Linkwarden](https://github.com/linkwarden/linkwarden)**: stores important links, has an extension with Chrome
 * **[Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF)**: lots of PDF tools, available for free only through self-hosting
 * **[Pihole](https://pi-hole.net/) / [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) / [Technitium](https://technitium.com/)**: block ads / "bad" websites through domain name, create internal DNS records
-* **[Dashdot](https://getdashdot.com/)**: system information on your homelab, including CPU usage, memory, and up/down speed
+* **[Dash.](https://getdashdot.com/)**: system information on your homelab, including CPU usage, memory, and up/down speed
 * **[AdventureLog](https://adventurelog.app/)**: Keep track of where you've been and your adventures, provides integrations for things like Strava
 * **[Spoolman](https://github.com/Donkie/Spoolman)**: Database for you 3D printing filament
 * **[Authelia](https://www.authelia.com/)**: SSO solution for all your apps
