@@ -1,21 +1,29 @@
 ---
-title:  "Homelab Adventures Part 4 -- The Dashboard"
-date:   2026-01-06 19:17:00 -0700
+title:  "Controls from Zero"
+date:   2026-01-14 19:17:00 -0700
 category: projects
-tags: homelab linux docker grafana
+tags: gnc, controls
 author: Aidan Velleca
-description: "Setting up a metrics dashboard with Prometheus and Grafana"
+description: "Modeling a control system"
+published: true
 header:
-    teaser: "assets/images/grafana.png"
+    teaser: "assets/images/control-sys.png"
 ---
-Now you have a functional homelab, but how do you make sure it stays functional? It's been a while since I completed the initial setup of the homelab, and it's been serving my family and I well. However, I wanted to revisit how I keep track of metrics and performance. Previously, I used Homarr and Dash. for this, but I wanted to try and implement a Grafana dashboard instead, since it is more customizable. This does double duty of improving the way I monitor my homelab and helping me learn Grafana. Grafana is a popular tool nowadays, and I want to at least be familiar with the basics.
+When I was in controls class in university, I found that it was very common for professors to introduce controls-related topics discretely, not really emphasizing how all of these topics tie together. For things like Bode plots, Nyquist diagrams, Laplace transformations, and more, you may get a detailed explanation of how to do these things, but the end goal might not be as obvious. Which is why I decided to write this post about how to deal with control systems, going back to the basics.
 
-From what I could tell based on my research, I would need to add two services to my homelab. The first is called Prometheus, and it serves as a database for the metrics. It does not do any data visualization though. For that, I also need an instance of Grafana, which uses Prometheus as a data source. There is also a service known as an "exporter," that helps expose data for Prometheus to find and aggregate. Simple. I followed a guide from [Christian Lempa](https://www.youtube.com/watch?v=9TJx7QTrTyo) to put this into practice.
+The best way to think about control systems is as a manager for a machine. You want your machine to reach a certain state, but you might not be there yet. For example, your house may be at 63&deg;F on a chilly day, and you set the thermostat to 72&deg;F. 63&deg;F would be your current state, 72&deg;F would be your reference, and your input might be the level the heater is set to. 
 
-The guide from Christian Lempa is four years old, but still holds up very well. Ultimately, there are two of my own notes I wanted to add to it.
-* For some reason, the recommended setup for cAdvisor on his GitHub uses the host networking mode. This is not how it is set up in his video, and causes problems, since when you try and connect it to Prometheus, it won't register with service name because it is not on the same docker network.
-* Make sure you use the most recent version of cAdvisor.
+There are two main categories of control systems, **feedforward** and **feedback**. Imagine a world where you know exactly what the dynamics of a system you are working with looks like. A helpful example of this is in [this video](https://www.youtube.com/watch?v=lBC1nEq0_nk&t=5s) produced by MATLAB. If you know your reference speed and had a relationship $x=f(u)$ between the pedal position (u) and speed (x) with no disturbances, you could use the inverse to determine the position of the pedal you want. However, in a real system, there might be unpredictable factors that make a feedforward model impractical. As mentioned in the MATLAB video during the autonomous car example, there may be wind, bumps in the road, pedestrians to stop for, etc, that are not properly modeled and may cause your system to break down. In a pure feedforward control system, unmodeled disturbances can cause drift, meaning the error may grow over time. That is where a feedback model comes into play. A feedback model will use sensors to measure the state, and then "feed it back" into the model. Since sensors are not perfectly accurate, you will also need to model in some noise to your measurements. These are the base fundamentals of control systems, and what each value "means".
 
-Now, I have my own Grafana instance with the Prometheus data source that allows me to access any data related to the host (node-exporter) and my docker containers (cAdvisor). I imported some dashboards to start, but I am excited to really make it my own. I also heard that while Prometheus is good for metrics, you can also use other services, like Grafana Alloy, Loki, Tempo, etc., in order to track logs and traces as well as metrics and get a really complete overview of what is going on with your server. I think this is good for now, but that is something to consider. Check out my new dashboard!
+There are multiple different type of control systems. One important distinction is the difference between linear and non-linear systems. A linear system will follow the principles of what is known as superposition, which has two special properties. A nonlinear control system will not meet these specifications, and be harder to model. The two properties are:
+* Homogeneity: if you increase the input by a certain factor, the output will scale by the same factor
+* Additivity: if you add together two different inputs, their outputs will also be added
 
-![My new dashboard](/assets/images/mydashboard.png)
+Another common classification of controllers is a PID controller. This is a controller with three terms added together.
+* Proportional: $u_p(t) = K_pe(t)$. If there is a large error, increase the input.
+* Integral: $u_i(t) = K_i\int_{0}^{t} e(t) \,dt$. This increases the input if the error has been large for a long time.
+* Derivative: $u_d(t) = K_d\frac{d}{dt}$e(t). This term reacts to the rate of change of error and helps damp oscillations.
+
+For a PID controller, $u(t) = u_p(t) + u_i(t) + u_d(t)$.
+
+As part of a mini project related to this fact finding mission, I created a simulation to visualize a PID controller. This simulation allows you to change the weights and see how the resulting system behaves. Check it out on [GitHub](https://github.com/AidanV0908/PID-Simulation). Next, I plan to talk more about assessing stability.

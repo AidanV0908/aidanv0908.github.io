@@ -35,9 +35,18 @@ search: false
     </div>
   </section>
   -->
+<!-- What's New (displays latest 3 blog posts) -->
+  <section class="whats-new">
+    <h2>What's New</h2>
+    <div class="grid__wrapper">
+      {% for post in site.posts limit:4 %}
+        {% include archive-single.html type="grid" %}
+      {% endfor %}
+    </div>
+  </section>
 <!-- Work Experience -->
   <section class="work experience">
-    <h2>Journey So Far</h2>
+    <h2>Career Path</h2>
     {% include timeline.html items=site.data.work_timeline %}
   </section>
 <!-- Other Experience -->
