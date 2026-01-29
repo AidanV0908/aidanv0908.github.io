@@ -5,7 +5,7 @@ category: projects
 tags: gnc controls simulation
 author: Aidan Velleca
 description: "Modeling a control system"
-published: false
+published: true
 header:
     teaser: "assets/images/control-sys.png"
 ---
@@ -48,16 +48,17 @@ I have explained to you some VERY foundational topics to control systems, but th
 
 The simulation analyzes a mass spring system sliding on a flat surface. In previous iterations, I included a dampner, but to simplify the model, I ended up removing it. The system is therefore governed by the following systems of ODEs.
 
-$v(t) = x'(t)$
+$v(t) = x'(t)$ \\
 $a(t) = (u(t) - kx(t)) / m$
 
-Where:
-* $x(t)$: position of the mass at time t
-* $v(t)$: velocity of the mass at time t
-* $a(t)$: acceleration of the mass at time t
-* $u(t)$: control input at time t
-* $k$: spring constant
-* $m$: mass of the object
+where:
+
+$x(t)$: position of the mass at time t \\
+$v(t)$: velocity of the mass at time t \\
+$a(t)$: acceleration of the mass at time t \\
+$u(t)$: control input at time t \\
+$k$: spring constant \\
+$m$: mass of the object
 
 The initial conditions for the simulation are:
 
@@ -78,13 +79,41 @@ The third set of user variables are simulation variables, including:
 * Time Step ($dt$): time step for the simulation
 * Total Time ($T$): total time to simulate
 
-From changing these variables, I am able to show you some interesting results. Here are some example plots from the simulation.
+Let's try and design a controller. In the sim, we minimize independent variables by fixing mass, the spring constant, the reference position, the time step, and total time to their preset values in the simulation. In this case, those are: <br><br>
+$m = 1 kg$\\
+$k = 10 N/m$\\
+$r = 5 m$ \\
+$dt = 0.01 s$ \\
+$t = 10 s$ 
 
-< insert example 1, a properly tuned PID controller plot >
+**Scenario 1 ($K_p = 5, K_i = 0, K_d = 0$)**<br>
+![Scenario 1](/assets/images/controlsfromzero_sc1.png)<br>
+In the first scenario, we have a proportional controller with a gain of 5. Notice how we never reach our setpoint, and instead oscillate below it. This is because, at some point before reaching the setpoint, we reach a point where the spring force equals the control input. At that point, our acceleration becomes 0, and we start to decelerate. We can find this point mathematically.
+<p style="text-align:center">
+$kx = K_p(r-x)$<br>
+$10x = 5(5-x)$ <br>
+$15x = 25$ <br>
+$x = 5/3$ <br>
+</p>
+This is exactly where we see the inflection point in our position graph.
 
-< insert example 2, a PD controller plot with steady state error >
 
-< insert example 3, a PD controller plot with oscillations >
+**Scenario 2 ($K_p = 20, K_i = 0, K_d = 0$)**<br>
+![Scenario 2](/assets/images/controlsfromzero_sc2.png)<br>
+Before trying again with an integral or derivative component, I thought it would be interesting to showcase what happens with a larger proportional gain. We notice that, this time, the reference value is actually reached. With our new larger proportional gain, the point where the spring force and the control input are equal occurs at $10/3$ meters, a new, larger value. However, even after reaching the setpoint, our proportional-only controller will eventually drop again. It is clear that we need to add in some additional components to our controller to fix this.
+
+**Scenario 3 ($K_p = 20, K_i = 10, K_d = 0$)**<br>
+![Scenario 3](/assets/images/controlsfromzero_sc3.png)<br>
+For the next scenario, we add in an integral term. Now we notice we're diverging. It's best to start by analyzing the behavior of the integral term we added in, and the complex interplay with the proportional term. At first, when we are below the setpoint, both the proportional and integral terms are positive. Once the setpoint is passed, the proportional term flips signs, but the integral term remains positive, due to all the positive error we have accumulated so far. It **DOES** start declining, but even when we cross the setpoint again, our integral input is still positive. Despite that, we enter a large dip governed by the proportional term, causing the integral term to continue to grow. This consistent growth of the integral term is what causes the divergence we see in the system. To visualize this better, I've broken down the individual terms below.<br><br>
+![Scenario 3 Terms](/assets/images/controlsfromzero_sc3_breakdown.png)
+
+**Scenario 4 ($K_p = 20, K_i = 10, K_d = 10$)**<br>
+![Scenario 4](/assets/images/controlsfromzero_sc4.png)<br>
+We've had some problems with a P and a PI controller, so let's see if adding in a derivative term helps. In theory, the derivative term should counteract the overshoot we were seeing that caused the divergence. Looking at the results, we can see that we are now converging to the setpoint! The derivative term is doing its job of damping oscillations. However, it takes us a while to converge. Maybe we can modify the gains to get a faster response.
+
+**Scenario 5 ($K_p = 50, K_i = 30, K_d = 15$)**<br>
+![Scenario 5](/assets/images/controlsfromzero_sc5.png)<br>
+In this scenario, all of the gains are increased. The system converges much faster. It may be possible to improve this solution further, but this is a good stopping point for now.
 
 # Issues with PID Control
 While PID controllers are very common and useful, they do have some problems. One classic problem is **integral windup**. This is a common issue in real systems due to what's known as **saturation**. Imagine you have a motor, and you are using a PID controller to control its speed. The motor can only go so fast, so if your control input exceeds the maximum speed of the motor, the motor will just go at its maximum speed. This is saturation. If you then go past the setpoint, the controller will start to tell the motor to slow down, but the motors will stay at the same speed until the control input drops below the maximum speed again. This is undesirable behavior, but can be fixed with some anti-windup techniques.
