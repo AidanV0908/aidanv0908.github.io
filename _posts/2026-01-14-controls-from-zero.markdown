@@ -8,6 +8,8 @@ description: "Modeling a control system"
 published: true
 header:
     teaser: "assets/images/control-sys.png"
+seo_title: "Choosing Hardware for My Homelab"
+seo_description: "A discussion on hardware chosen for a small homelab setup, including storage, CPU, and RAM."
 ---
 # Background
 The way I was taught controls in college was **flawed**. Why? The method my professors used approached the topic from an aggresively mathematical background, without giving the topics a proper introduction on a fundamental level. Math is a great tool, but its only useful when you **understand the premise of the problem you are trying to solve**. I used to think I was "weak" in controls, but it turns out I just never learned it properly. Today, I feel much more confident on how to design and implement PID controllers. In this post, I hope to explain the fundamentals behind control systems, especially PID control systems, to those who are new to the material. Welcome to Controls from Zero.
@@ -86,7 +88,7 @@ $r = 5 m$ \\
 $dt = 0.01 s$ \\
 $t = 10 s$ 
 
-**Scenario 1 ($K_p = 5, K_i = 0, K_d = 0$)**<br>
+### Scenario 1 ($K_p = 5, K_i = 0, K_d = 0$)<br>
 ![Scenario 1](/assets/images/controlsfromzero_sc1.png)<br>
 In the first scenario, we have a proportional controller with a gain of 5. Notice how we never reach our setpoint, and instead oscillate below it. This is because, at some point before reaching the setpoint, we reach a point where the spring force equals the control input. At that point, our acceleration becomes 0, and we start to decelerate. We can find this point mathematically.
 <p style="text-align:center">
@@ -98,20 +100,20 @@ $x = 5/3$ <br>
 This is exactly where we see the inflection point in our position graph.
 
 
-**Scenario 2 ($K_p = 20, K_i = 0, K_d = 0$)**<br>
+### Scenario 2 ($K_p = 20, K_i = 0, K_d = 0$)<br>
 ![Scenario 2](/assets/images/controlsfromzero_sc2.png)<br>
 Before trying again with an integral or derivative component, I thought it would be interesting to showcase what happens with a larger proportional gain. We notice that, this time, the reference value is actually reached. With our new larger proportional gain, the point where the spring force and the control input are equal occurs at $10/3$ meters, a new, larger value. However, even after reaching the setpoint, our proportional-only controller will eventually drop again. It is clear that we need to add in some additional components to our controller to fix this.
 
-**Scenario 3 ($K_p = 20, K_i = 10, K_d = 0$)**<br>
+### Scenario 3 ($K_p = 20, K_i = 10, K_d = 0$)<br>
 ![Scenario 3](/assets/images/controlsfromzero_sc3.png)<br>
 For the next scenario, we add in an integral term. Now we notice we're diverging. It's best to start by analyzing the behavior of the integral term we added in, and the complex interplay with the proportional term. At first, when we are below the setpoint, both the proportional and integral terms are positive. Once the setpoint is passed, the proportional term flips signs, but the integral term remains positive, due to all the positive error we have accumulated so far. It **DOES** start declining, but even when we cross the setpoint again, our integral input is still positive. Despite that, we enter a large dip governed by the proportional term, causing the integral term to continue to grow. This consistent growth of the integral term is what causes the divergence we see in the system. To visualize this better, I've broken down the individual terms below.<br><br>
 ![Scenario 3 Terms](/assets/images/controlsfromzero_sc3_breakdown.png)
 
-**Scenario 4 ($K_p = 20, K_i = 10, K_d = 10$)**<br>
+### Scenario 4 ($K_p = 20, K_i = 10, K_d = 10$)<br>
 ![Scenario 4](/assets/images/controlsfromzero_sc4.png)<br>
 We've had some problems with a P and a PI controller, so let's see if adding in a derivative term helps. In theory, the derivative term should counteract the overshoot we were seeing that caused the divergence. Looking at the results, we can see that we are now converging to the setpoint! The derivative term is doing its job of damping oscillations. However, it takes us a while to converge. Maybe we can modify the gains to get a faster response.
 
-**Scenario 5 ($K_p = 50, K_i = 30, K_d = 15$)**<br>
+### Scenario 5 ($K_p = 50, K_i = 30, K_d = 15$)<br>
 ![Scenario 5](/assets/images/controlsfromzero_sc5.png)<br>
 In this scenario, all of the gains are increased. The system converges much faster. It may be possible to improve this solution further, but this is a good stopping point for now.
 

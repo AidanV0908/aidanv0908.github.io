@@ -7,6 +7,8 @@ author: Aidan Velleca
 description: "Getting started with Linux and Docker"
 header:
     teaser: "assets/images/ubuntu_startup.png"
+seo_title: "Getting Started with Ubuntu Server for Your Homelab"
+seo_description: "A guide to setting up Ubuntu Server on your homelab machine, including SSH configuration, static IP, and putting disks in RAID"
 ---
 The first step to get started with any machine is booting the operating system. I chose to go with Ubuntu Server as the operating system for my homelab for several reasons. The first of which is that I only run a single machine, so something like ProxMox, which helps coordinate containers across multiple machines, would be overkill. Second, Ubuntu Server has no desktop interface, and thus has less overhead. Finally, I wanted to learn more about the command line, and what better way to do that than an operating system that works exclusively with the command line.
 

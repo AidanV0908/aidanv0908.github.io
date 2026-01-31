@@ -7,6 +7,8 @@ author: Aidan Velleca
 description: "Setting up a metrics dashboard with Prometheus and Grafana"
 header:
     teaser: "assets/images/grafana.png"
+seo_title: "Setting up a Metrics Dashboard for Your Homelab with Prometheus and Grafana"
+seo_description: "A guide to setting up a metrics dashboard on your homelab using Prometheus and Grafana, including configuration tips and best practices."
 ---
 Now you have a functional homelab, but how do you make sure it stays functional? It's been a while since I completed the initial setup of the homelab, and it's been serving my family and I well. However, I wanted to revisit how I keep track of metrics and performance. Previously, I used Homarr and Dash. for this, but I wanted to try and implement a Grafana dashboard instead, since it is more customizable. This does double duty of improving the way I monitor my homelab and helping me learn Grafana. Grafana is a popular tool nowadays, and I want to at least be familiar with the basics.
 

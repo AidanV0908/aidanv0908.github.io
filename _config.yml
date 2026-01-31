@@ -82,7 +82,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google-site-verification : "YG5ZcKWg3OmbcBneYg3fdO3ASnrhz22yJCGkCSW6LRo"
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
@@ -95,7 +95,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/splash.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -106,16 +106,13 @@ social:
 # Analytics
 analytics:
   provider               : "custom" # false (default), "google", "google-universal", "google-gtag", "custom"
-#  google:
-#    tracking_id          : "G-ML4D4VL6WL"
-#    anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "Aidan Velleca"
   avatar           : "/assets/images/bio-profile.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Inquisitive engineer who loves breaking boundaries and exploring the world."
   location         : "Los Angeles, CA"
   email            :
   links:
@@ -130,13 +127,13 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/aidan.velleca.1/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/AidanV0908"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/aidanvelleca/"
 
 # Site Footer
 footer:
@@ -265,6 +262,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -273,6 +271,7 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-seo-tag
 
 
 # Archives
