@@ -11,7 +11,6 @@ header:
 seo_title: "Choosing Hardware for My Homelab"
 seo_description: "A discussion on hardware chosen for a small homelab setup, including storage, CPU, and RAM."
 ---
-# Background
 The way I was taught controls in college was **flawed**. Why? The method my professors used approached the topic from an aggresively mathematical background, without giving the topics a proper introduction on a fundamental level. Math is a great tool, but its only useful when you **understand the premise of the problem you are trying to solve**. I used to think I was "weak" in controls, but it turns out I just never learned it properly. Today, I feel much more confident on how to design and implement PID controllers. In this post, I hope to explain the fundamentals behind control systems, especially PID control systems, to those who are new to the material. Welcome to Controls from Zero.
 
 In my hunt for information on control systems, I found a lot of resources, but there are three that I feel helped me the most, which I wanted to share.
