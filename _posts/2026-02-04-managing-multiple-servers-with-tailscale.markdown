@@ -33,6 +33,8 @@ server {
 
 There is no reason to have this exposed globally, which is why I only listen on localhost. If you do `curl http://localhost:7080/status` on the VM, you should see the metrics from the stub status page. Now, you can have the nginx-prometheus-exporter scrape this endpoint and expose it to Prometheus.
 
+As a note for nginx-prometheus-exporter, if the exporter is containerized and nginx is on the main machine, keep in mind that localhost will refer to the container itself, and thus not access the stub_status page. To get around this, you can add `host.docker.internal:host-gateway` under `extra_hosts`, and then have the exporter scrape `http://host.docker.internal:7080/status`.
+
 Finally, for the VM resources itself, I used node exporter. I touched on node exporter in "Homelab Adventures Part 4", but it is a simple exporter that exposes metrics about the machine itself, like CPU usage, memory usage, disk usage, etc.
 
 ![Exporters](/assets/images/exporters.png)
