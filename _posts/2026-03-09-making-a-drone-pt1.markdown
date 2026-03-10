@@ -7,7 +7,7 @@ author: Aidan Velleca
 description: "Part 1 of a series documenting the process of building a drone from scratch."
 published: true
 header:
-    teaser: "ud_quad.jpg"
+    teaser: "assets/images/ud_quad.jpg"
 seo_title: "Making a Drone: Part 1"
 seo_description: "Part 1 of a series documenting the process of building a drone from scratch."
 ---
