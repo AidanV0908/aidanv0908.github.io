@@ -1,6 +1,6 @@
 ---
 title:  "Making a Drone: Part 2"
-date:   2026-03-14 00:14:00 -0700
+date:   2026-04-13 23:52:00 -0700
 category: projects
 tags: drone fpv soldering engineering
 author: Aidan Velleca
