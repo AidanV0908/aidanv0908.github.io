@@ -2,7 +2,7 @@
   desc: Custom-built FPV drone
   url: /projects/making-a-drone-pt1/
   date: Mar 2026 - Present
-  image: assets/images/ud_quad.jpg
+  image: /assets/images/drone_complete.jpg
 - name: Home Server
   desc: Set up my own Linux home server
   url: /projects/homelab-adventures-1/

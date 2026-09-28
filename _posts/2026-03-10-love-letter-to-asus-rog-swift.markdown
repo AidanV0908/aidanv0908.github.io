@@ -5,7 +5,7 @@ category: review
 tags: monitor gaming review
 author: Aidan Velleca
 description: "A love letter to the ASUS ROG Swift monitor, a beast of a display for gaming and productivity."
-published: true
+published: false
 header:
     teaser: "assets/images/asus-rog.jpg"
 seo_title: "Love Letter to ASUS ROG Swift Monitor"

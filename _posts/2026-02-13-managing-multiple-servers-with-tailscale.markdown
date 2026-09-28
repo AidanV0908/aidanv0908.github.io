@@ -5,7 +5,7 @@ category: projects
 tags: tailscale homelab networking
 author: Aidan Velleca
 description: "Linking metrics and management of two separate machines with Tailscale."
-published: true
+published: false
 header:
     teaser: "assets/images/data_center.jpg"
 seo_title: "Managing multiple machines with Tailscale"
