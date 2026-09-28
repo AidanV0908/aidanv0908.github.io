@@ -19,11 +19,11 @@ On the design side, I think it is useful to give a brief reminder of where I was
 
 Here is a picture of me trying to figure out the standoff situation. The only space I had left was right above where that capacitor was.
 
-![Drone Standoffs](/assets/images/drone_standoffs.jpg)
+![Drone Standoffs](/assets/images/drone_standoffs.JPG)
 
 Here is a picture of the drone after the first flight, with no damage. I took it at home, after all the grass was removed, I regret not getting a better in the moment picture of it. Suprisingly, it held up extremely well with no damage. Although I didn't try to crash, turned out it was a good thing as a durability test.
 
-![Completed Drone](/assets/images/drone_complete.jpg)
+![Completed Drone](/assets/images/drone_complete.JPG)
 
 I am thinking about one last optional change, which is hooking up the Frsky XM+ receiver to the flight controller. Right now, I am using the DJI controller to control the drone, but I want to be able to use the Taranis QX7 as well. The drone is very tight though, and I am not sure the best way to fit it in yet. It will also require more precise soldering from me, on the smaller pads of the flight controller. 
 
